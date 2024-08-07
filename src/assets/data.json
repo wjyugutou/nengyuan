@@ -938,6 +938,32 @@
             }
         },
         {
+            "shape": "dashed-line",
+            "zIndex": 0,
+            "id": "825ff5b5-8f6b-45c9-a72b-ce6540885cf1",
+            "source": {
+                "x": 995,
+                "y": 125
+            },
+            "target": {
+                "x": 995,
+                "y": 920
+            }
+        },
+        {
+            "shape": "dashed-line",
+            "zIndex": 0,
+            "id": "25b96e1d-2d26-44ab-a3b6-146d38f27fb2",
+            "source": {
+                "x": -690,
+                "y": 925
+            },
+            "target": {
+                "x": 2450,
+                "y": 925
+            }
+        },
+        {
             "position": {
                 "x": 600,
                 "y": 310
@@ -7866,6 +7892,1842 @@
             },
             "id": "9d5bf959-5c77-49eb-9cb6-5c089f28293c",
             "zIndex": 62
+        },
+        {
+            "position": {
+                "x": 582.5,
+                "y": 106.00000000000014
+            },
+            "size": {
+                "width": 135,
+                "height": 75
+            },
+            "attrs": {
+                "text": {
+                    "text": "S4.5蒸汽"
+                }
+            },
+            "visible": true,
+            "shape": "custom-title",
+            "tools": {
+                "items": [
+                    {
+                        "name": "node-editor"
+                    }
+                ]
+            },
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "fff17a61-211a-42e0-8933-52a96cc7cdae"
+                    },
+                    {
+                        "group": "right",
+                        "id": "a7f2cc6c-b8a3-41b7-bda9-dc0423a9d355"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "1534d1f2-ab4f-4b0b-8f08-5a63cf09a6b4"
+                    },
+                    {
+                        "group": "left",
+                        "id": "5643bceb-5a96-493f-b044-9045efc8c9ba"
+                    }
+                ]
+            },
+            "id": "9cd5f8e7-a57f-463c-850d-99f4366ea518",
+            "zIndex": 63
+        },
+        {
+            "position": {
+                "x": 1108,
+                "y": 217
+            },
+            "size": {
+                "width": 100,
+                "height": 35
+            },
+            "attrs": {
+                "text": {
+                    "text": "S1.0蒸汽"
+                }
+            },
+            "visible": true,
+            "shape": "custom-title",
+            "tools": {
+                "items": [
+                    {
+                        "name": "node-editor"
+                    }
+                ]
+            },
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "fff17a61-211a-42e0-8933-52a96cc7cdae"
+                    },
+                    {
+                        "group": "right",
+                        "id": "a7f2cc6c-b8a3-41b7-bda9-dc0423a9d355"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "1534d1f2-ab4f-4b0b-8f08-5a63cf09a6b4"
+                    },
+                    {
+                        "group": "left",
+                        "id": "5643bceb-5a96-493f-b044-9045efc8c9ba"
+                    }
+                ]
+            },
+            "id": "d8d60007-6c43-4c4b-b84d-522eed5ee086",
+            "zIndex": 64
+        },
+        {
+            "position": {
+                "x": 106,
+                "y": 990
+            },
+            "size": {
+                "width": 100,
+                "height": 35
+            },
+            "attrs": {
+                "text": {
+                    "text": "S0.6蒸汽"
+                }
+            },
+            "visible": true,
+            "shape": "custom-title",
+            "tools": {
+                "items": [
+                    {
+                        "name": "node-editor"
+                    }
+                ]
+            },
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "fff17a61-211a-42e0-8933-52a96cc7cdae"
+                    },
+                    {
+                        "group": "right",
+                        "id": "a7f2cc6c-b8a3-41b7-bda9-dc0423a9d355"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "1534d1f2-ab4f-4b0b-8f08-5a63cf09a6b4"
+                    },
+                    {
+                        "group": "left",
+                        "id": "5643bceb-5a96-493f-b044-9045efc8c9ba"
+                    }
+                ]
+            },
+            "id": "8e8e2908-a305-4fa8-9266-eeb9d083f67c",
+            "zIndex": 65
+        },
+        {
+            "position": {
+                "x": -808,
+                "y": 1593
+            },
+            "size": {
+                "width": 170,
+                "height": 120
+            },
+            "attrs": {
+                "text": {
+                    "text": "炼焦作业区"
+                }
+            },
+            "visible": true,
+            "shape": "custom-label",
+            "tools": {
+                "items": [
+                    {
+                        "name": "node-editor"
+                    }
+                ]
+            },
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "f2be4c93-3422-4999-aa93-aa8f1a9e90ca"
+                    },
+                    {
+                        "group": "right",
+                        "id": "f03ead19-89fc-40cf-9994-912f0f8accf4"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "2aa13a7c-2817-45a5-a52e-0ec0fb7f2ee0"
+                    },
+                    {
+                        "group": "left",
+                        "id": "6cb449d0-7833-43cc-bfad-d28b86c21372"
+                    }
+                ]
+            },
+            "id": "4b2d9498-99e0-4095-8f1e-8c9316074bd4",
+            "zIndex": 66
+        },
+        {
+            "position": {
+                "x": 145,
+                "y": 1650
+            },
+            "size": {
+                "width": 105,
+                "height": 50
+            },
+            "attrs": {
+                "text": {
+                    "text": "干熄焦作业区"
+                }
+            },
+            "visible": true,
+            "shape": "custom-label",
+            "tools": {
+                "items": [
+                    {
+                        "name": "node-editor"
+                    }
+                ]
+            },
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "f2be4c93-3422-4999-aa93-aa8f1a9e90ca"
+                    },
+                    {
+                        "group": "right",
+                        "id": "f03ead19-89fc-40cf-9994-912f0f8accf4"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "2aa13a7c-2817-45a5-a52e-0ec0fb7f2ee0"
+                    },
+                    {
+                        "group": "left",
+                        "id": "6cb449d0-7833-43cc-bfad-d28b86c21372"
+                    }
+                ]
+            },
+            "id": "ae4f6369-be8e-4a60-b39b-2fcc949af89e",
+            "zIndex": 67
+        },
+        {
+            "position": {
+                "x": 336,
+                "y": 1650
+            },
+            "size": {
+                "width": 105,
+                "height": 55
+            },
+            "attrs": {
+                "text": {
+                    "text": "净化作业区"
+                }
+            },
+            "visible": true,
+            "shape": "custom-label",
+            "tools": {
+                "items": [
+                    {
+                        "name": "node-editor"
+                    }
+                ]
+            },
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "f2be4c93-3422-4999-aa93-aa8f1a9e90ca"
+                    },
+                    {
+                        "group": "right",
+                        "id": "f03ead19-89fc-40cf-9994-912f0f8accf4"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "2aa13a7c-2817-45a5-a52e-0ec0fb7f2ee0"
+                    },
+                    {
+                        "group": "left",
+                        "id": "6cb449d0-7833-43cc-bfad-d28b86c21372"
+                    }
+                ]
+            },
+            "id": "ba305f9c-bee8-4bd4-a85d-34844f04e438",
+            "zIndex": 68
+        },
+        {
+            "position": {
+                "x": 1526,
+                "y": 1628
+            },
+            "size": {
+                "width": 150,
+                "height": 65
+            },
+            "attrs": {
+                "text": {
+                    "text": "动力作业区"
+                }
+            },
+            "visible": true,
+            "shape": "custom-label",
+            "tools": {
+                "items": [
+                    {
+                        "name": "node-editor"
+                    }
+                ]
+            },
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "f2be4c93-3422-4999-aa93-aa8f1a9e90ca"
+                    },
+                    {
+                        "group": "right",
+                        "id": "f03ead19-89fc-40cf-9994-912f0f8accf4"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "2aa13a7c-2817-45a5-a52e-0ec0fb7f2ee0"
+                    },
+                    {
+                        "group": "left",
+                        "id": "6cb449d0-7833-43cc-bfad-d28b86c21372"
+                    }
+                ]
+            },
+            "id": "f88042fe-d09c-461b-9835-de30a84f3096",
+            "zIndex": 69
+        },
+        {
+            "position": {
+                "x": 530,
+                "y": 1042.5
+            },
+            "size": {
+                "width": 120,
+                "height": 60
+            },
+            "attrs": {
+                "text": {
+                    "text": "干熄焦作业区"
+                }
+            },
+            "visible": true,
+            "shape": "custom-label",
+            "tools": {
+                "items": [
+                    {
+                        "name": "node-editor"
+                    }
+                ]
+            },
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "f2be4c93-3422-4999-aa93-aa8f1a9e90ca"
+                    },
+                    {
+                        "group": "right",
+                        "id": "f03ead19-89fc-40cf-9994-912f0f8accf4"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "2aa13a7c-2817-45a5-a52e-0ec0fb7f2ee0"
+                    },
+                    {
+                        "group": "left",
+                        "id": "6cb449d0-7833-43cc-bfad-d28b86c21372"
+                    }
+                ]
+            },
+            "id": "3b99a60e-9788-4bf9-bd15-9ab74ec1c41b",
+            "zIndex": 70
+        },
+        {
+            "position": {
+                "x": 839,
+                "y": 997.5
+            },
+            "size": {
+                "width": 95,
+                "height": 45
+            },
+            "attrs": {
+                "text": {
+                    "text": "净化作业区"
+                }
+            },
+            "visible": true,
+            "shape": "custom-label",
+            "tools": {
+                "items": [
+                    {
+                        "name": "node-editor"
+                    }
+                ]
+            },
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "f2be4c93-3422-4999-aa93-aa8f1a9e90ca"
+                    },
+                    {
+                        "group": "right",
+                        "id": "f03ead19-89fc-40cf-9994-912f0f8accf4"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "2aa13a7c-2817-45a5-a52e-0ec0fb7f2ee0"
+                    },
+                    {
+                        "group": "left",
+                        "id": "6cb449d0-7833-43cc-bfad-d28b86c21372"
+                    }
+                ]
+            },
+            "id": "3666281f-bcb3-4bbc-8af5-f5ebbf5ffd0b",
+            "zIndex": 71
+        },
+        {
+            "position": {
+                "x": 1052,
+                "y": 990
+            },
+            "size": {
+                "width": 110,
+                "height": 65
+            },
+            "attrs": {
+                "text": {
+                    "text": "炼焦作业区"
+                }
+            },
+            "visible": true,
+            "shape": "custom-label",
+            "tools": {
+                "items": [
+                    {
+                        "name": "node-editor"
+                    }
+                ]
+            },
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "f2be4c93-3422-4999-aa93-aa8f1a9e90ca"
+                    },
+                    {
+                        "group": "right",
+                        "id": "f03ead19-89fc-40cf-9994-912f0f8accf4"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "2aa13a7c-2817-45a5-a52e-0ec0fb7f2ee0"
+                    },
+                    {
+                        "group": "left",
+                        "id": "6cb449d0-7833-43cc-bfad-d28b86c21372"
+                    }
+                ]
+            },
+            "id": "2329bd5b-1c85-4442-934b-9fb108e60668",
+            "zIndex": 72
+        },
+        {
+            "position": {
+                "x": -444,
+                "y": 736
+            },
+            "size": {
+                "width": 130,
+                "height": 50
+            },
+            "attrs": {
+                "text": {
+                    "text": "干熄焦作业区"
+                }
+            },
+            "visible": true,
+            "shape": "custom-label",
+            "tools": {
+                "items": [
+                    {
+                        "name": "node-editor"
+                    }
+                ]
+            },
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "f2be4c93-3422-4999-aa93-aa8f1a9e90ca"
+                    },
+                    {
+                        "group": "right",
+                        "id": "f03ead19-89fc-40cf-9994-912f0f8accf4"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "2aa13a7c-2817-45a5-a52e-0ec0fb7f2ee0"
+                    },
+                    {
+                        "group": "left",
+                        "id": "6cb449d0-7833-43cc-bfad-d28b86c21372"
+                    }
+                ]
+            },
+            "id": "42a9d955-c370-446d-af28-868717f29af6",
+            "zIndex": 73
+        },
+        {
+            "position": {
+                "x": 392,
+                "y": 721
+            },
+            "size": {
+                "width": 135,
+                "height": 50
+            },
+            "attrs": {
+                "text": {
+                    "text": "净化作业区"
+                }
+            },
+            "visible": true,
+            "shape": "custom-label",
+            "tools": {
+                "items": [
+                    {
+                        "name": "node-editor"
+                    }
+                ]
+            },
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "f2be4c93-3422-4999-aa93-aa8f1a9e90ca"
+                    },
+                    {
+                        "group": "right",
+                        "id": "f03ead19-89fc-40cf-9994-912f0f8accf4"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "2aa13a7c-2817-45a5-a52e-0ec0fb7f2ee0"
+                    },
+                    {
+                        "group": "left",
+                        "id": "6cb449d0-7833-43cc-bfad-d28b86c21372"
+                    }
+                ]
+            },
+            "id": "31f9f908-84e4-401b-ae58-7d1a5a3955a8",
+            "zIndex": 74
+        },
+        {
+            "position": {
+                "x": -500,
+                "y": 85.00000000000068
+            },
+            "size": {
+                "width": 195,
+                "height": 80
+            },
+            "attrs": {
+                "text": {
+                    "text": "干熄焦作业区"
+                }
+            },
+            "visible": true,
+            "shape": "custom-label",
+            "tools": {
+                "items": [
+                    {
+                        "name": "node-editor"
+                    }
+                ]
+            },
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "f2be4c93-3422-4999-aa93-aa8f1a9e90ca"
+                    },
+                    {
+                        "group": "right",
+                        "id": "f03ead19-89fc-40cf-9994-912f0f8accf4"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "2aa13a7c-2817-45a5-a52e-0ec0fb7f2ee0"
+                    },
+                    {
+                        "group": "left",
+                        "id": "6cb449d0-7833-43cc-bfad-d28b86c21372"
+                    }
+                ]
+            },
+            "id": "96a6b19a-13a0-47b2-ac59-ba643ae04778",
+            "zIndex": 75
+        },
+        {
+            "position": {
+                "x": 1170,
+                "y": 318.5000000000001
+            },
+            "size": {
+                "width": 140,
+                "height": 50
+            },
+            "attrs": {
+                "text": {
+                    "text": "干熄焦作业区"
+                }
+            },
+            "visible": true,
+            "shape": "custom-label",
+            "tools": {
+                "items": [
+                    {
+                        "name": "node-editor"
+                    }
+                ]
+            },
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "f2be4c93-3422-4999-aa93-aa8f1a9e90ca"
+                    },
+                    {
+                        "group": "right",
+                        "id": "f03ead19-89fc-40cf-9994-912f0f8accf4"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "2aa13a7c-2817-45a5-a52e-0ec0fb7f2ee0"
+                    },
+                    {
+                        "group": "left",
+                        "id": "6cb449d0-7833-43cc-bfad-d28b86c21372"
+                    }
+                ]
+            },
+            "id": "03402eb1-2aa0-4178-a741-955c6392d79c",
+            "zIndex": 76
+        },
+        {
+            "position": {
+                "x": 1190,
+                "y": 836
+            },
+            "size": {
+                "width": 100,
+                "height": 35
+            },
+            "attrs": {
+                "text": {
+                    "text": "净化作业区"
+                }
+            },
+            "visible": true,
+            "shape": "custom-label",
+            "tools": {
+                "items": [
+                    {
+                        "name": "node-editor"
+                    }
+                ]
+            },
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "f2be4c93-3422-4999-aa93-aa8f1a9e90ca"
+                    },
+                    {
+                        "group": "right",
+                        "id": "f03ead19-89fc-40cf-9994-912f0f8accf4"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "2aa13a7c-2817-45a5-a52e-0ec0fb7f2ee0"
+                    },
+                    {
+                        "group": "left",
+                        "id": "6cb449d0-7833-43cc-bfad-d28b86c21372"
+                    }
+                ]
+            },
+            "id": "e416c495-fb6f-4983-944a-1d58d96b677c",
+            "zIndex": 77
+        },
+        {
+            "position": {
+                "x": 1676,
+                "y": 849
+            },
+            "size": {
+                "width": 100,
+                "height": 40
+            },
+            "attrs": {
+                "text": {
+                    "text": "炼焦作业区"
+                }
+            },
+            "visible": true,
+            "shape": "custom-label",
+            "tools": {
+                "items": [
+                    {
+                        "name": "node-editor"
+                    }
+                ]
+            },
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "f2be4c93-3422-4999-aa93-aa8f1a9e90ca"
+                    },
+                    {
+                        "group": "right",
+                        "id": "f03ead19-89fc-40cf-9994-912f0f8accf4"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "2aa13a7c-2817-45a5-a52e-0ec0fb7f2ee0"
+                    },
+                    {
+                        "group": "left",
+                        "id": "6cb449d0-7833-43cc-bfad-d28b86c21372"
+                    }
+                ]
+            },
+            "id": "13796e75-db84-46b3-aa63-1745c544d332",
+            "zIndex": 78
+        },
+        {
+            "position": {
+                "x": 302,
+                "y": -29.99999999999895
+            },
+            "size": {
+                "width": 330,
+                "height": 90
+            },
+            "attrs": {
+                "text": {
+                    "text": "佳华煤化工有限公司蒸汽能源流转图"
+                }
+            },
+            "visible": true,
+            "shape": "custom-label",
+            "tools": {
+                "items": [
+                    {
+                        "name": "node-editor"
+                    }
+                ]
+            },
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "933a1eb2-0241-4f32-a54f-2cc84ffc5824"
+                    },
+                    {
+                        "group": "right",
+                        "id": "30e65deb-ef5d-4288-82ef-2604a13c9b87"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "280440cd-9422-4235-9d52-c71652a52ce7"
+                    },
+                    {
+                        "group": "left",
+                        "id": "c29d9d53-8306-48dc-94f2-67760495f2e2"
+                    }
+                ]
+            },
+            "id": "8cc9aab1-1f3f-4c29-9c16-d6a139802198",
+            "zIndex": 79
         }
     ]
 }

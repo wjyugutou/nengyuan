@@ -44,6 +44,59 @@ function regNode(ports: Partial<PortManager.Metadata>) {
     },
     true,
   )
+  // 1级标题
+  Graph.registerNode(
+    'custom-title',
+    {
+      inherit: 'rect',
+      width: 100,
+      height: 35,
+      attrs: {
+        body: {
+          strokeWidth: 0,
+          fillOpacity: 0
+        },
+        text: {
+          fontSize: 24,
+          fill: '#000',
+          fontWeight: 900
+        },
+      },
+      ports: { ...ports },
+      tools: [
+        {
+          name: 'node-editor',
+        },
+      ],
+    },
+    true,
+  )
+  // 2级标题
+  Graph.registerNode(
+    'custom-label',
+    {
+      inherit: 'rect',
+      width: 100,
+      height: 35,
+      attrs: {
+        body: {
+          strokeWidth: 0,
+          fillOpacity: 0
+        },
+        text: {
+          fontSize: 18,
+          fill: '#000',
+        },
+      },
+      ports: { ...ports },
+      tools: [
+        {
+          name: 'node-editor',
+        },
+      ],
+    },
+    true,
+  )
   // zhengqibiao
   Graph.registerNode(
     'zhengqibiao',
@@ -152,6 +205,19 @@ function regEdge() {
       line: {
         stroke: '#A2B1C3',
         strokeWidth: 2,
+      },
+    },
+    zIndex: 0,
+  })
+
+  Graph.registerEdge('dashed-line', {
+    inherit: 'edge',
+    attrs: {
+      line: {
+        stroke: '#797979',
+        strokeWidth: 2,
+        strokeDasharray: 15,
+        targetMarker: null
       },
     },
     zIndex: 0,
@@ -320,7 +386,17 @@ function initStencilNode(graph: Graph, stencil: Stencil) {
     label: '减温减压'
   })
 
-  stencil.load([n1, n2, n3, n4], 'group1')
+  const title = graph.createNode({
+    shape: 'custom-title',
+    label: '标题'
+  })
+
+  const label = graph.createNode({
+    shape: 'custom-label',
+    label: 'label',
+  })
+
+  stencil.load([n1, n2, n3, n4, title, label], 'group1')
 }
 
 function initPorts(graph: Graph) {
@@ -463,13 +539,14 @@ function initKeyboard(graph: Graph) {
 function initevent(graph: Graph) {
   // 双击添加线段
   graph.on('blank:dblclick', (e) => {
-    console.log(111);
-
+    // 线段
     const edge = graph.createEdge({
-      shape: 'pipe',
+      shape: 'dashed-line',
+      // shape: 'pipe',
       source: [e.x, e.y],
       target: [e.x + 80, e.y],
     })
+
     graph.addEdge(edge)
   })
 
@@ -502,11 +579,21 @@ function initevent(graph: Graph) {
 
 }
 
-async function handleClickSave() {
+function handleClickSave() {
 
   const json = graphR.value!.toJSON()
 
   console.log('save', json);
+}
+
+function handleClickPng() {
+  graphR.value!.toPNG((dataURI) => {
+      const save_link = document.createElement( 'a');
+      save_link.href = dataURI
+      save_link.download = 'name.png';
+      save_link.click();
+
+  })
 }
 
 onMounted(() => {
@@ -529,7 +616,10 @@ onMounted(() => {
 
 <template>
   <div class="w-100vw h-100vh relative flex">
-    <button class="absolute top-0 right-0 z-10" @click="handleClickSave">保存</button>
+    <div class="absolute top-0 right-0 z-10 flex gap-10">
+      <button @click="handleClickSave">保存</button>
+      <button @click="handleClickPng">png</button>
+    </div>
     <div id="stencil" class="w-50 h-full shrink-0 relative border-(~ 1px solid #dfe3e8)"></div>
     <div id="container">
 
