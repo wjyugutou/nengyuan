@@ -23,7 +23,7 @@ function regNode(ports: Partial<PortManager.Metadata>) {
     {
       inherit: 'rect',
       width: 100,
-      height: 35,
+      height: 100,
       attrs: {
         body: {
           strokeWidth: 1,
@@ -31,7 +31,7 @@ function regNode(ports: Partial<PortManager.Metadata>) {
           fill: '#EFF4FF',
         },
         text: {
-          fontSize: 12,
+          fontSize: 28,
           fill: '#262626',
         },
       },
@@ -57,7 +57,7 @@ function regNode(ports: Partial<PortManager.Metadata>) {
           fillOpacity: 0
         },
         text: {
-          fontSize: 24,
+          fontSize: 40,
           fill: '#000',
           fontWeight: 900
         },
@@ -84,7 +84,7 @@ function regNode(ports: Partial<PortManager.Metadata>) {
           fillOpacity: 0
         },
         text: {
-          fontSize: 18,
+          fontSize: 36,
           fill: '#000',
         },
       },
@@ -102,10 +102,12 @@ function regNode(ports: Partial<PortManager.Metadata>) {
     'zhengqibiao',
     {
       inherit: 'rect',
-      width: 100,
-      height: 50,
+      width: 200,
+      height: 100,
       markup: [
         { tagName: 'rect', selector: 'body', },
+        { tagName: 'rect', selector: 'shunshiliuliangBG', },
+        { tagName: 'rect', selector: 'leijiliuliangBG', },
         { tagName: 'image', },
         { tagName: 'text', selector: 'shunshiliuliang', },
         { tagName: 'text', selector: 'leijiliuliang', },
@@ -123,35 +125,57 @@ function regNode(ports: Partial<PortManager.Metadata>) {
           refHeight: 1,
         },
         shunshiliuliang: {
-          refX: -80,
+          ref: 'body',
+          refX: -60,
           refY: 2,
           textAnchor: 'left',
           textVerticalAnchor: 'top',
-          fontSize: 14,
+          fontSize: 24,
           fill: '#000',
+        },
+        shunshiliuliangBG: {
+          ref: 'shunshiliuliang',
+          refX: 0,
+          refY: 0,
+          refWidth: 1,
+          refHeight: 1,
+          fill: '#00FFFF',
+          stroke: 'transtarent',
         },
         leijiliuliang: {
-          refX: -80,
-          refY: 15,
+          ref: 'shunshiliuliang',
+          refX: 0,
+          refY: 25,
           textAnchor: 'left',
           textVerticalAnchor: 'top',
-          fontSize: 14,
+          fontSize: 24,
           fill: '#000',
         },
+        leijiliuliangBG: {
+          ref: 'leijiliuliang',
+          refX: 0,
+          refY: 0,
+          refWidth: 1,
+          refHeight: 1,
+          fill: '#81D3F8',
+          stroke: 'transtarent',
+        },
         wendu: {
-          refX: -80,
-          refY: 30,
+          ref: 'leijiliuliang',
+          refX: 0,
+          refY: 25,
           textAnchor: 'left',
           textVerticalAnchor: 'top',
-          fontSize: 14,
+          fontSize: 24,
           fill: '#EE9CA7',
         },
         yaqiang: {
-          refX: -80,
-          refY: 45,
+          ref: 'wendu',
+          refX: 0,
+          refY: 25,
           textAnchor: 'left',
           textVerticalAnchor: 'top',
-          fontSize: 14,
+          fontSize: 24,
           fill: '#EE9CA7',
         },
       },
@@ -192,7 +216,7 @@ function regEdge() {
     attrs: {
       line: {
         stroke: '#A2B1C3',
-        strokeWidth: 2,
+        strokeWidth: 8,
         targetMarker: null
       },
     },
@@ -204,7 +228,7 @@ function regEdge() {
     attrs: {
       line: {
         stroke: '#A2B1C3',
-        strokeWidth: 2,
+        strokeWidth: 8,
       },
     },
     zIndex: 0,
@@ -215,7 +239,7 @@ function regEdge() {
     attrs: {
       line: {
         stroke: '#797979',
-        strokeWidth: 2,
+        strokeWidth: 8,
         strokeDasharray: 15,
         targetMarker: null
       },
@@ -259,7 +283,7 @@ function initGraph() {
           attrs: {
             line: {
               stroke: '#A2B1C3',
-              strokeWidth: 2,
+              strokeWidth: 8,
               targetMarker: {
                 name: 'block',
                 width: 12,
@@ -538,27 +562,27 @@ function initKeyboard(graph: Graph) {
 
 function initevent(graph: Graph) {
   // 双击添加线段
-  graph.on('blank:dblclick', (e) => {
-    // 线段
-    const edge = graph.createEdge({
-      shape: 'dashed-line',
-      // shape: 'pipe',
-      source: [e.x, e.y],
-      target: [e.x + 80, e.y],
-    })
-
-    graph.addEdge(edge)
-  })
-
-  // 邮件添加箭头线
-  // graph.on('blank:contextmenu', (e) => {
+  // graph.on('blank:dblclick', (e) => {
+  //   // 线段
   //   const edge = graph.createEdge({
-  //     shape: 'arrow-pipe',
+  //     shape: 'dashed-line',
+  //     // shape: 'pipe',
   //     source: [e.x, e.y],
   //     target: [e.x + 80, e.y],
   //   })
+
   //   graph.addEdge(edge)
   // })
+
+  // 邮件添加箭头线
+  graph.on('blank:contextmenu', (e) => {
+    const edge = graph.createEdge({
+      shape: 'arrow-pipe',
+      source: [e.x, e.y],
+      target: [e.x + 80, e.y],
+    })
+    graph.addEdge(edge)
+  })
 
   // 工具
   graph.on('edge:click', ({ cell }) => {
