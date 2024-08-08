@@ -47,10 +47,13 @@ importers:
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^2.24.1
-        version: 2.24.1(@vue/compiler-sfc@3.4.36)(eslint@9.8.0)(typescript@5.5.4)
+        version: 2.24.1(@unocss/eslint-plugin@0.61.9(eslint@9.8.0)(typescript@5.5.4))(@vue/compiler-sfc@3.4.36)(eslint@9.8.0)(typescript@5.5.4)
       '@types/node':
         specifier: ^22.1.0
         version: 22.1.0
+      '@unocss/eslint-plugin':
+        specifier: ^0.61.9
+        version: 0.61.9(eslint@9.8.0)(typescript@5.5.4)
       '@vitejs/plugin-vue':
         specifier: ^5.0.5
         version: 5.1.2(vite@5.3.5(@types/node@22.1.0))(vue@3.4.36(typescript@5.5.4))
@@ -795,6 +798,10 @@ packages:
 
   '@unocss/core@0.61.9':
     resolution: {integrity: sha512-2W1YZQIWXcueGdbXU/ZCqn/8yQhWk8e8kAHFkVlbc9rictkd2UmPB9nIZ8Ii1tMwt6F0TT6vfHbLJEGCV08o2g==}
+
+  '@unocss/eslint-plugin@0.61.9':
+    resolution: {integrity: sha512-jgOym3WyWXAWyjkrtIZurkl87XuWAwhN8mul8V4mokpFMB5y6VMlatCYql/dD0tIyZuFJujxfWvUkizqyE84aQ==}
+    engines: {node: '>=14'}
 
   '@unocss/extractor-arbitrary-variants@0.61.9':
     resolution: {integrity: sha512-ii42/hKbhgeBBOy86729t6/HeGmxUcHM8FprPeb/v/DfYsCkjDvMYVynX3FN/K5pR2WV+HHp6TQS7GbTmRIN0g==}
@@ -2255,7 +2262,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@antfu/eslint-config@2.24.1(@vue/compiler-sfc@3.4.36)(eslint@9.8.0)(typescript@5.5.4)':
+  '@antfu/eslint-config@2.24.1(@unocss/eslint-plugin@0.61.9(eslint@9.8.0)(typescript@5.5.4))(@vue/compiler-sfc@3.4.36)(eslint@9.8.0)(typescript@5.5.4)':
     dependencies:
       '@antfu/install-pkg': 0.3.3
       '@clack/prompts': 0.7.0
@@ -2293,6 +2300,8 @@ snapshots:
       vue-eslint-parser: 9.4.3(eslint@9.8.0)
       yaml-eslint-parser: 1.2.3
       yargs: 17.7.2
+    optionalDependencies:
+      '@unocss/eslint-plugin': 0.61.9(eslint@9.8.0)(typescript@5.5.4)
     transitivePeerDependencies:
       - '@vue/compiler-sfc'
       - supports-color
@@ -3033,6 +3042,18 @@ snapshots:
       - supports-color
 
   '@unocss/core@0.61.9': {}
+
+  '@unocss/eslint-plugin@0.61.9(eslint@9.8.0)(typescript@5.5.4)':
+    dependencies:
+      '@typescript-eslint/utils': 7.18.0(eslint@9.8.0)(typescript@5.5.4)
+      '@unocss/config': 0.61.9
+      '@unocss/core': 0.61.9
+      magic-string: 0.30.11
+      synckit: 0.9.1
+    transitivePeerDependencies:
+      - eslint
+      - supports-color
+      - typescript
 
   '@unocss/extractor-arbitrary-variants@0.61.9':
     dependencies:

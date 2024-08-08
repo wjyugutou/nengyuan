@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { Graph } from '@antv/x6';
-import { onMounted, shallowRef } from 'vue';
-import { initPorts, regNode, regEdge, initGraph, initStencilNode, initStencil } from './utils';
+import type { Graph } from '@antv/x6'
+import { onMounted, shallowRef } from 'vue'
+import { initGraph, initPorts, initStencil, initStencilNode, regEdge, regNode } from './utils'
 import data from '@/assets/data.json'
 
 const graphR = shallowRef<Graph>()
@@ -78,28 +78,24 @@ function initevent(graph: Graph) {
   graph.on('edge:mouseleave', ({ cell }) => {
     cell.removeTools()
   })
-
 }
 
 function handleClickSave() {
-
   const json = graphR.value!.toJSON()
 
-  console.log('save', json);
+  console.log('save', json)
 }
 
 function handleClickPng() {
   graphR.value!.toPNG((dataURI) => {
-    const save_link = document.createElement('a');
+    const save_link = document.createElement('a')
     save_link.href = dataURI
-    save_link.download = 'name.png';
-    save_link.click();
-
+    save_link.download = 'name.png'
+    save_link.click()
   })
 }
 
 onMounted(() => {
-
   const graph = initGraph()
   const stencil = initStencil(graph)
   const ports = initPorts(graph)
@@ -114,20 +110,21 @@ onMounted(() => {
   initevent(graph)
 
   graph.fromJSON(data)
-
 })
 </script>
 
 <template>
-  <div class="w-100vw h-100vh relative flex">
-    <div class="absolute top-0 right-0 z-10 flex gap-10">
-      <button @click="handleClickSave">保存</button>
-      <button @click="handleClickPng">png</button>
+  <div class="relative h-100vh w-100vw flex">
+    <div class="absolute right-0 top-0 z-10 flex gap-10">
+      <button @click="handleClickSave">
+        保存
+      </button>
+      <button @click="handleClickPng">
+        png
+      </button>
     </div>
-    <div id="stencil" class="w-50 h-full shrink-0 relative border-(~ 1px solid #dfe3e8)"></div>
-    <div id="container">
-
-    </div>
+    <div id="stencil" class="relative h-full w-50 shrink-0 border border-(1px #dfe3e8 solid)" />
+    <div id="container" />
   </div>
 </template>
 
