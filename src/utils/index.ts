@@ -1,15 +1,15 @@
-import { Graph, Shape } from "@antv/x6"
+import { Graph, Shape } from '@antv/x6'
 import { Transform } from '@antv/x6-plugin-transform'
 import { Selection } from '@antv/x6-plugin-selection'
 import { Snapline } from '@antv/x6-plugin-snapline'
 import { Keyboard } from '@antv/x6-plugin-keyboard'
 import { Clipboard } from '@antv/x6-plugin-clipboard'
 import { History } from '@antv/x6-plugin-history'
-import { PortManager } from '@antv/x6/lib/model/port';
-import { Export } from '@antv/x6-plugin-export';
+import type { PortManager } from '@antv/x6/lib/model/port'
+import { Export } from '@antv/x6-plugin-export'
+import { Stencil } from '@antv/x6-plugin-stencil'
 import zhengqibiao from '@/assets/zhengqibiao.png'
 import yibiao from '@/assets/yibiao.png'
-import { Stencil } from "@antv/x6-plugin-stencil"
 
 export function initPorts(graph: Graph) {
   // #region 初始化图形
@@ -154,12 +154,12 @@ export function regNode(ports: Partial<PortManager.Metadata>) {
       attrs: {
         body: {
           strokeWidth: 0,
-          fillOpacity: 0
+          fillOpacity: 0,
         },
         text: {
           fontSize: 60,
           fill: '#000',
-          fontWeight: 900
+          fontWeight: 900,
         },
       },
       ports: { ...ports },
@@ -182,7 +182,7 @@ export function regNode(ports: Partial<PortManager.Metadata>) {
       attrs: {
         body: {
           strokeWidth: 0,
-          fillOpacity: 0
+          fillOpacity: 0,
         },
         text: {
           fontSize: 44,
@@ -207,19 +207,19 @@ export function regNode(ports: Partial<PortManager.Metadata>) {
       width: 200,
       height: 100,
       markup: [
-        { tagName: 'rect', selector: 'body', },
-        { tagName: 'rect', selector: 'shunshiliuliangBG', },
-        { tagName: 'rect', selector: 'leijiliuliangBG', },
-        { tagName: 'image', },
-        { tagName: 'text', selector: 'shunshiliuliang', },
-        { tagName: 'text', selector: 'leijiliuliang', },
-        { tagName: 'text', selector: 'wendu', },
-        { tagName: 'text', selector: 'yaqiang', },
+        { tagName: 'rect', selector: 'body' },
+        { tagName: 'rect', selector: 'shunshiliuliangBG' },
+        { tagName: 'rect', selector: 'leijiliuliangBG' },
+        { tagName: 'image' },
+        { tagName: 'text', selector: 'shunshiliuliang' },
+        { tagName: 'text', selector: 'leijiliuliang' },
+        { tagName: 'text', selector: 'wendu' },
+        { tagName: 'text', selector: 'yaqiang' },
       ],
       attrs: {
         body: {
           stroke: 'transtarent',
-          fillOpacity: 0
+          fillOpacity: 0,
         },
         image: {
           ref: 'body',
@@ -306,12 +306,12 @@ export function regNode(ports: Partial<PortManager.Metadata>) {
       width: 100,
       height: 52,
       markup: [
-        { tagName: 'rect', selector: 'body', },
-        { tagName: 'image', },
+        { tagName: 'rect', selector: 'body' },
+        { tagName: 'image' },
       ],
       attrs: {
         body: {
-          stroke: '#5F95FF',
+          stroke: 'transparent',
         },
         image: {
           ref: 'body',
@@ -333,7 +333,7 @@ export function regEdge() {
       line: {
         stroke: '#A2B1C3',
         strokeWidth: 8,
-        targetMarker: null
+        targetMarker: null,
       },
     },
     zIndex: 0,
@@ -349,8 +349,8 @@ export function regEdge() {
           name: 'block',
           width: 24,
           height: 16,
-          offset: 2
-        }
+          offset: 2,
+        },
       },
     },
     zIndex: 0,
@@ -363,7 +363,7 @@ export function regEdge() {
         stroke: '#797979',
         strokeWidth: 8,
         strokeDasharray: 15,
-        targetMarker: null
+        targetMarker: null,
       },
     },
     zIndex: 0,
@@ -373,12 +373,14 @@ export function regEdge() {
 export function initGraph() {
   const graph = new Graph({
     container: document.getElementById('container')!,
-    autoResize: true, grid: {
+    autoResize: true,
+    grid: {
       visible: false,
-      size: 1
-    }, panning: {
+      size: 1,
+    },
+    panning: {
       enabled: true,
-      eventTypes: ['rightMouseDown']
+      eventTypes: ['rightMouseDown'],
     },
     mousewheel: {
       enabled: true,
@@ -498,61 +500,61 @@ export function initStencilNode(graph: Graph, stencil: Stencil) {
     shape: 'zhengqibiao',
     attrs: {
       image: {
-        'xlink:href': zhengqibiao
+        'xlink:href': zhengqibiao,
       },
       shunshiliuliang: {
-        text: '瞬时流量'
+        text: '瞬时流量',
       },
       leijiliuliang: {
-        text: '累计流量'
+        text: '累计流量',
       },
       wendu: {
-        text: '温度'
+        text: '温度',
       },
       yaqiang: {
-        text: '压力'
-      }
-    }
+        text: '压力',
+      },
+    },
   })
 
   const zhengqiyibiao_labelRight = graph.createNode({
     shape: 'zhengqiyibiao_label-right',
     attrs: {
       image: {
-        'xlink:href': zhengqibiao
+        'xlink:href': zhengqibiao,
       },
       shunshiliuliang: {
-        text: '瞬时流量'
+        text: '瞬时流量',
       },
       leijiliuliang: {
-        text: '累计流量'
+        text: '累计流量',
       },
       wendu: {
-        text: '温度'
+        text: '温度',
       },
       yaqiang: {
-        text: '压力'
-      }
-    }
+        text: '压力',
+      },
+    },
   })
 
   const n3 = graph.createNode({
     shape: 'yibiao',
     attrs: {
       image: {
-        'xlink:href': yibiao
+        'xlink:href': yibiao,
       },
-    }
+    },
   })
 
   const n4 = graph.createNode({
     shape: 'custom-rect',
-    label: '减温减压'
+    label: '减温减压',
   })
 
   const title = graph.createNode({
     shape: 'custom-title',
-    label: '标题'
+    label: '标题',
   })
 
   const label = graph.createNode({
@@ -560,5 +562,5 @@ export function initStencilNode(graph: Graph, stencil: Stencil) {
     label: 'label',
   })
 
-  stencil.load([n1, zhengqibiaoNode,zhengqiyibiao_labelRight, n3, n4, title, label], 'group1')
+  stencil.load([n1, zhengqibiaoNode, zhengqiyibiao_labelRight, n3, n4, title, label], 'group1')
 }
