@@ -167,7 +167,7 @@ function regNode(ports: Partial<PortManager.Metadata>) {
           textAnchor: 'left',
           textVerticalAnchor: 'top',
           fontSize: 24,
-          fill: '#EE9CA7',
+          fill: '#FF6464',
         },
         yaqiang: {
           ref: 'wendu',
@@ -176,7 +176,7 @@ function regNode(ports: Partial<PortManager.Metadata>) {
           textAnchor: 'left',
           textVerticalAnchor: 'top',
           fontSize: 24,
-          fill: '#EE9CA7',
+          fill: '#007DFE',
         },
       },
       ports: { ...ports },
@@ -229,6 +229,12 @@ function regEdge() {
       line: {
         stroke: '#A2B1C3',
         strokeWidth: 8,
+        targetMarker: {
+          name: 'block',
+          width: 24,
+          height: 16,
+          offset: 2
+        }
       },
     },
     zIndex: 0,
@@ -252,8 +258,8 @@ function initGraph() {
   const graph = new Graph({
     container: document.getElementById('container')!,
     autoResize: true, grid: {
-      visible: true,
-      size: 5
+      visible: false,
+      size: 1
     }, panning: {
       enabled: true,
       eventTypes: ['rightMouseDown']
@@ -286,8 +292,8 @@ function initGraph() {
               strokeWidth: 8,
               targetMarker: {
                 name: 'block',
-                width: 12,
-                height: 8,
+                width: 24,
+                height: 16,
               },
             },
           },
@@ -391,7 +397,7 @@ function initStencilNode(graph: Graph, stencil: Stencil) {
         text: '温度'
       },
       yaqiang: {
-        text: '压强'
+        text: '压力'
       }
     }
   })
@@ -575,14 +581,14 @@ function initevent(graph: Graph) {
   // })
 
   // 邮件添加箭头线
-  graph.on('blank:contextmenu', (e) => {
-    const edge = graph.createEdge({
-      shape: 'arrow-pipe',
-      source: [e.x, e.y],
-      target: [e.x + 80, e.y],
-    })
-    graph.addEdge(edge)
-  })
+  // graph.on('blank:contextmenu', (e) => {
+  //   const edge = graph.createEdge({
+  //     shape: 'arrow-pipe',
+  //     source: [e.x, e.y],
+  //     target: [e.x + 80, e.y],
+  //   })
+  //   graph.addEdge(edge)
+  // })
 
   // 工具
   graph.on('edge:click', ({ cell }) => {
@@ -623,13 +629,13 @@ function handleClickPng() {
 onMounted(() => {
 
   const graph = initGraph()
-  const stencil = initStencil(graph)
+  // const stencil = initStencil(graph)
   const ports = initPorts(graph)
 
 
   regNode(ports)
   regEdge()
-  initStencilNode(graph, stencil)
+  // initStencilNode(graph, stencil)
   initKeyboard(graph)
   initevent(graph)
 
@@ -644,7 +650,7 @@ onMounted(() => {
       <button @click="handleClickSave">保存</button>
       <button @click="handleClickPng">png</button>
     </div>
-    <div id="stencil" class="w-50 h-full shrink-0 relative border-(~ 1px solid #dfe3e8)"></div>
+    <!-- <div id="stencil" class="w-50 h-full shrink-0 relative border-(~ 1px solid #dfe3e8)"></div> -->
     <div id="container">
 
     </div>
