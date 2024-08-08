@@ -3,39 +3,13 @@
         {
             "shape": "pipe",
             "zIndex": 0,
-            "id": "07339ec3-6f40-41a0-8fdf-b727f67a8a49",
-            "source": {
-                "cell": "8a2b39c9-5ce8-4b98-8d8e-c391141b8140",
-                "port": "02fc79cc-d4a0-4e67-b395-6bb86947ae9d"
-            },
-            "target": {
-                "cell": "bb3c1f2f-1324-462d-8a5a-12ce6339dbbf",
-                "port": "657efb8a-2582-4151-b62a-1a534c04895c"
-            }
-        },
-        {
-            "shape": "pipe",
-            "zIndex": 0,
-            "id": "618866be-0b83-47ad-a0c2-69a0c8e382ae",
-            "source": {
-                "cell": "a200fa14-bccb-4c7c-ae8e-aa53dcfa6ade",
-                "port": "02fc79cc-d4a0-4e67-b395-6bb86947ae9d"
-            },
-            "target": {
-                "cell": "9d5bf959-5c77-49eb-9cb6-5c089f28293c",
-                "port": "657efb8a-2582-4151-b62a-1a534c04895c"
-            }
-        },
-        {
-            "shape": "pipe",
-            "zIndex": 0,
             "id": "6171dead-f0ed-4712-aed1-31be478b2271",
             "source": {
                 "cell": "713af13a-8cbb-4992-966d-132293124d84",
                 "port": "071c1293-874c-405a-a9f9-c70139217256"
             },
             "target": {
-                "x": 465,
+                "x": 312,
                 "y": 360
             }
         },
@@ -48,8 +22,8 @@
                 "port": "071c1293-874c-405a-a9f9-c70139217256"
             },
             "target": {
-                "x": 100,
-                "y": 350
+                "x": -296,
+                "y": 346
             },
             "vertices": []
         },
@@ -62,8 +36,8 @@
                 "port": "071c1293-874c-405a-a9f9-c70139217256"
             },
             "target": {
-                "x": -330,
-                "y": 360
+                "x": -726,
+                "y": 356
             }
         },
         {
@@ -265,12 +239,12 @@
             "zIndex": 0,
             "id": "825ff5b5-8f6b-45c9-a72b-ce6540885cf1",
             "source": {
-                "x": 995,
-                "y": 125
+                "x": 973,
+                "y": 137
             },
             "target": {
-                "x": 995,
-                "y": 920
+                "x": 973,
+                "y": 932
             }
         },
         {
@@ -278,12 +252,12 @@
             "zIndex": 0,
             "id": "8dd3bea2-18ca-4cdd-84c3-3d8ad364b790",
             "source": {
-                "x": 1502,
-                "y": 1400
+                "x": 1758,
+                "y": 1401
             },
             "target": {
-                "x": 1502,
-                "y": 1470
+                "x": 1758,
+                "y": 1471
             }
         },
         {
@@ -291,25 +265,12 @@
             "zIndex": 0,
             "id": "a234f6c3-5f9e-41ee-8c13-add52425a140",
             "source": {
-                "x": 1710,
-                "y": 1400
+                "x": 2026,
+                "y": 1408
             },
             "target": {
-                "x": 1710,
-                "y": 1470
-            }
-        },
-        {
-            "shape": "arrow-pipe",
-            "zIndex": 0,
-            "id": "f259d75b-8000-4df3-a084-75d1c53bbd20",
-            "source": {
-                "x": 465,
-                "y": 585
-            },
-            "target": {
-                "x": 465,
-                "y": 665
+                "x": 2026,
+                "y": 1478
             }
         },
         {
@@ -349,25 +310,12 @@
             "zIndex": 0,
             "id": "0efafae8-ec1c-4b82-af46-0915bed1759f",
             "source": {
-                "x": 1875,
+                "x": 2026,
                 "y": 565
             },
             "target": {
-                "x": 1875,
+                "x": 2026,
                 "y": 700
-            }
-        },
-        {
-            "shape": "arrow-pipe",
-            "zIndex": 0,
-            "id": "e3c3557a-7038-4938-ace7-8bc36279f45d",
-            "source": {
-                "x": 2055,
-                "y": 565
-            },
-            "target": {
-                "x": 2100,
-                "y": 690
             }
         },
         {
@@ -412,19 +360,6 @@
             }
         },
         {
-            "shape": "dashed-line",
-            "zIndex": 0,
-            "id": "25b96e1d-2d26-44ab-a3b6-146d38f27fb2",
-            "source": {
-                "x": -690,
-                "y": 925
-            },
-            "target": {
-                "x": 2460,
-                "y": 930
-            }
-        },
-        {
             "shape": "arrow-pipe",
             "zIndex": 0,
             "id": "c1eb740a-94a6-4b56-ab63-4b949329a104",
@@ -440,27 +375,14 @@
         {
             "shape": "arrow-pipe",
             "zIndex": 0,
-            "id": "ea7ad32a-ff7e-4e7b-b026-dda70e546052",
-            "source": {
-                "x": 1375,
-                "y": 565
-            },
-            "target": {
-                "x": 2250,
-                "y": 565
-            }
-        },
-        {
-            "shape": "arrow-pipe",
-            "zIndex": 0,
             "id": "9beb7e08-980e-4d99-a858-9672a1c54354",
             "source": {
-                "x": 1675,
-                "y": 565
+                "x": 1737,
+                "y": 566
             },
             "target": {
-                "x": 1675,
-                "y": 700
+                "x": 1737,
+                "y": 701
             }
         },
         {
@@ -494,12 +416,12 @@
             "zIndex": 0,
             "id": "5fb29ed2-bf43-4277-b8f8-1d0c1a5740ef",
             "source": {
-                "x": -170,
-                "y": 1400
+                "x": 16,
+                "y": 1404
             },
             "target": {
-                "x": -170,
-                "y": 1475
+                "x": 16,
+                "y": 1479
             }
         },
         {
@@ -529,43 +451,16 @@
             }
         },
         {
-            "shape": "arrow-pipe",
-            "zIndex": 0,
-            "id": "907c2bd8-37a5-4ce9-a4a7-404bbcc04d10",
-            "source": {
-                "x": -330,
-                "y": 440
-            },
-            "target": {
-                "x": -330,
-                "y": 560
-            },
-            "vertices": []
-        },
-        {
             "shape": "pipe",
             "zIndex": 0,
             "id": "08d57dc9-c229-4bb0-8a9d-4da54792669e",
             "source": {
-                "x": -330,
-                "y": 365
+                "x": -725,
+                "y": 370
             },
             "target": {
-                "x": -330,
-                "y": 440
-            }
-        },
-        {
-            "shape": "arrow-pipe",
-            "zIndex": 0,
-            "id": "48cdc30c-14f1-46d7-854c-7acc2539567f",
-            "source": {
-                "x": 100,
-                "y": 440
-            },
-            "target": {
-                "x": 100,
-                "y": 575
+                "x": -725,
+                "y": 445
             }
         },
         {
@@ -573,39 +468,12 @@
             "zIndex": 0,
             "id": "c2058271-0dc4-4715-b256-de077a3ea4be",
             "source": {
-                "x": 100,
-                "y": 370
+                "x": -296,
+                "y": 371
             },
             "target": {
-                "x": 100,
-                "y": 445
-            }
-        },
-        {
-            "shape": "arrow-pipe",
-            "zIndex": 0,
-            "id": "c07ba9fd-c5bf-40fa-889f-e8a6ccffc4dd",
-            "source": {
-                "x": 490,
-                "y": 445
-            },
-            "target": {
-                "cell": "35296e2a-6805-49fe-82e4-74679eafb906",
-                "port": "a7dd3a11-4e1e-472a-9781-7af574803bea"
-            },
-            "vertices": []
-        },
-        {
-            "shape": "pipe",
-            "zIndex": 0,
-            "id": "810c5c08-e031-4015-8c79-f591eabf8f73",
-            "source": {
-                "x": 635,
-                "y": 1260
-            },
-            "target": {
-                "x": 635,
-                "y": 1395
+                "x": -296,
+                "y": 446
             }
         },
         {
@@ -622,74 +490,16 @@
             }
         },
         {
-            "shape": "arrow-pipe",
-            "zIndex": 0,
-            "id": "b4b8227f-60f1-460a-8ba9-1b10d7bbe812",
-            "source": {
-                "x": -522,
-                "y": 448
-            },
-            "target": {
-                "cell": "58e1e254-2f3d-473d-9d22-06fae5e7dd8a",
-                "port": "1a420acb-bcab-4efc-8b96-52ce735a5f08"
-            }
-        },
-        {
-            "shape": "arrow-pipe",
-            "zIndex": 0,
-            "id": "93bd2daa-6acb-42d4-babf-d4c5931bbb53",
-            "source": {
-                "x": 1916,
-                "y": 1398
-            },
-            "target": {
-                "cell": "a200fa14-bccb-4c7c-ae8e-aa53dcfa6ade",
-                "port": "40af37d7-f08e-4cf2-a610-6f6583c5e409"
-            },
-            "vertices": [
-                {
-                    "x": 1915,
-                    "y": 1600
-                }
-            ]
-        },
-        {
-            "shape": "pipe",
-            "zIndex": 0,
-            "id": "a372514a-1c6d-4eff-bce0-b3b0b66e8df1",
-            "source": {
-                "x": -690,
-                "y": 1400
-            },
-            "target": {
-                "x": 1920,
-                "y": 1400
-            }
-        },
-        {
-            "shape": "arrow-pipe",
-            "zIndex": 0,
-            "id": "c4cda33c-63ba-4f3b-ac83-849794f79a71",
-            "source": {
-                "x": 1920,
-                "y": 1424
-            },
-            "target": {
-                "cell": "8a2b39c9-5ce8-4b98-8d8e-c391141b8140",
-                "port": "40af37d7-f08e-4cf2-a610-6f6583c5e409"
-            }
-        },
-        {
             "shape": "pipe",
             "zIndex": 0,
             "id": "668b9c07-3d38-4877-ab96-46e2269cc94c",
             "source": {
-                "x": 1676,
-                "y": 804
+                "x": 1735,
+                "y": 803
             },
             "target": {
-                "x": 1676,
-                "y": 750
+                "x": 1735,
+                "y": 749
             },
             "vertices": []
         },
@@ -698,12 +508,12 @@
             "zIndex": 0,
             "id": "bd757178-bdb7-43c8-8a41-9bf10780021b",
             "source": {
-                "x": 465,
-                "y": 368
+                "x": 312,
+                "y": 373
             },
             "target": {
-                "x": 465,
-                "y": 445
+                "x": 312,
+                "y": 450
             }
         },
         {
@@ -711,12 +521,12 @@
             "zIndex": 0,
             "id": "a9bac6a8-7da3-4776-bc04-ddae2938424b",
             "source": {
-                "x": 1877,
-                "y": 803
+                "x": 2023,
+                "y": 805
             },
             "target": {
-                "x": 1877,
-                "y": 746
+                "x": 2023,
+                "y": 748
             }
         },
         {
@@ -724,11 +534,11 @@
             "zIndex": 0,
             "id": "2a52155f-4d1f-4bc5-bdc9-51143e5ae4f2",
             "source": {
-                "x": 885,
+                "x": 1205,
                 "y": 1402
             },
             "target": {
-                "x": 885,
+                "x": 1205,
                 "y": 1475
             }
         },
@@ -737,12 +547,12 @@
             "zIndex": 0,
             "id": "af5f8dd8-8c9e-4614-972a-1829c3b9083b",
             "source": {
-                "x": 685,
-                "y": 1402
+                "x": 913,
+                "y": 1404
             },
             "target": {
-                "x": 685,
-                "y": 1475
+                "x": 913,
+                "y": 1477
             }
         },
         {
@@ -750,25 +560,12 @@
             "zIndex": 0,
             "id": "d58fd86d-e680-4939-ac82-4f5b52b8ff2d",
             "source": {
-                "x": 1105,
-                "y": 1404
+                "x": 1497,
+                "y": 1405
             },
             "target": {
-                "x": 1105,
-                "y": 1470
-            }
-        },
-        {
-            "shape": "arrow-pipe",
-            "zIndex": 0,
-            "id": "c3ae274e-dcad-41c2-a8c3-325a16abd4f5",
-            "source": {
-                "x": 1302,
-                "y": 1404
-            },
-            "target": {
-                "x": 1302,
-                "y": 1470
+                "x": 1497,
+                "y": 1471
             }
         },
         {
@@ -787,53 +584,14 @@
         {
             "shape": "arrow-pipe",
             "zIndex": 0,
-            "id": "a0f40d8d-cf75-4bd5-9f9f-e14c29b0626c",
-            "source": {
-                "x": 485,
-                "y": 1400
-            },
-            "target": {
-                "x": 485,
-                "y": 1470
-            }
-        },
-        {
-            "shape": "arrow-pipe",
-            "zIndex": 0,
             "id": "b7efbc9d-a8f1-4e05-8509-fd122c9545ad",
             "source": {
-                "x": 41,
-                "y": 1399
+                "x": 308,
+                "y": 1407
             },
             "target": {
-                "x": 41,
-                "y": 1472
-            }
-        },
-        {
-            "shape": "arrow-pipe",
-            "zIndex": 0,
-            "id": "e1f09c64-e9ae-4e39-a50d-2e88ca77ec12",
-            "source": {
-                "x": -383,
-                "y": 1402
-            },
-            "target": {
-                "x": -383,
-                "y": 1467
-            }
-        },
-        {
-            "shape": "arrow-pipe",
-            "zIndex": 0,
-            "id": "8d5d4fb8-1103-4a03-853e-ef435d1aed88",
-            "source": {
-                "x": -587,
-                "y": 1404
-            },
-            "target": {
-                "x": -587,
-                "y": 1464
+                "x": 308,
+                "y": 1480
             }
         },
         {
@@ -849,12 +607,38 @@
             }
         },
         {
+            "shape": "arrow-pipe",
+            "zIndex": 0,
+            "id": "ea7ad32a-ff7e-4e7b-b026-dda70e546052",
+            "source": {
+                "x": 1375,
+                "y": 565
+            },
+            "target": {
+                "x": 2441,
+                "y": 565
+            }
+        },
+        {
+            "shape": "arrow-pipe",
+            "zIndex": 0,
+            "id": "e3c3557a-7038-4938-ace7-8bc36279f45d",
+            "source": {
+                "x": 2323,
+                "y": 569
+            },
+            "target": {
+                "x": 2323,
+                "y": 678
+            }
+        },
+        {
             "shape": "pipe",
             "zIndex": 0,
             "id": "63dcadfc-5443-43cd-b908-8709abbde39e",
             "source": {
-                "x": 290,
-                "y": 1534
+                "x": 16,
+                "y": 1545
             },
             "target": {
                 "cell": "698a083d-e596-4fbc-9237-7acbea14f1ad",
@@ -864,19 +648,235 @@
         {
             "shape": "arrow-pipe",
             "zIndex": 0,
-            "id": "9b8c7883-3cf8-4ff8-9643-e4e610154cdd",
+            "id": "a0f40d8d-cf75-4bd5-9f9f-e14c29b0626c",
             "source": {
-                "x": 291,
-                "y": 1400
+                "x": -1218,
+                "y": 1403
             },
             "target": {
-                "x": 291,
-                "y": 1477
+                "x": -1218,
+                "y": 1494
+            }
+        },
+        {
+            "shape": "arrow-pipe",
+            "zIndex": 0,
+            "id": "c3ae274e-dcad-41c2-a8c3-325a16abd4f5",
+            "source": {
+                "x": -899,
+                "y": 1403
+            },
+            "target": {
+                "x": -899,
+                "y": 1489
+            }
+        },
+        {
+            "shape": "arrow-pipe",
+            "zIndex": 0,
+            "id": "e1f09c64-e9ae-4e39-a50d-2e88ca77ec12",
+            "source": {
+                "x": -583,
+                "y": 1401
+            },
+            "target": {
+                "x": -583,
+                "y": 1488
+            }
+        },
+        {
+            "shape": "arrow-pipe",
+            "zIndex": 0,
+            "id": "8d5d4fb8-1103-4a03-853e-ef435d1aed88",
+            "source": {
+                "x": -264,
+                "y": 1406
+            },
+            "target": {
+                "x": -264,
+                "y": 1485
+            }
+        },
+        {
+            "shape": "pipe",
+            "zIndex": 0,
+            "id": "810c5c08-e031-4015-8c79-f591eabf8f73",
+            "source": {
+                "x": 635,
+                "y": 1260
+            },
+            "target": {
+                "x": 635,
+                "y": 1399
+            }
+        },
+        {
+            "shape": "arrow-pipe",
+            "zIndex": 0,
+            "id": "9b8c7883-3cf8-4ff8-9643-e4e610154cdd",
+            "source": {
+                "x": 611,
+                "y": 1403
+            },
+            "target": {
+                "x": 611,
+                "y": 1478
+            }
+        },
+        {
+            "shape": "dashed-line",
+            "zIndex": 0,
+            "id": "25b96e1d-2d26-44ab-a3b6-146d38f27fb2",
+            "source": {
+                "x": -1346,
+                "y": 932
+            },
+            "target": {
+                "x": 2460,
+                "y": 930
+            }
+        },
+        {
+            "shape": "arrow-pipe",
+            "zIndex": 0,
+            "id": "b4b8227f-60f1-460a-8ba9-1b10d7bbe812",
+            "source": {
+                "x": -974,
+                "y": 449
+            },
+            "target": {
+                "cell": "58e1e254-2f3d-473d-9d22-06fae5e7dd8a",
+                "port": "1a420acb-bcab-4efc-8b96-52ce735a5f08"
+            }
+        },
+        {
+            "shape": "arrow-pipe",
+            "zIndex": 0,
+            "id": "907c2bd8-37a5-4ce9-a4a7-404bbcc04d10",
+            "source": {
+                "x": -725,
+                "y": 451
+            },
+            "target": {
+                "x": -725,
+                "y": 548
+            },
+            "vertices": []
+        },
+        {
+            "shape": "arrow-pipe",
+            "zIndex": 0,
+            "id": "48cdc30c-14f1-46d7-854c-7acc2539567f",
+            "source": {
+                "x": -295,
+                "y": 446
+            },
+            "target": {
+                "x": -295,
+                "y": 551
+            }
+        },
+        {
+            "shape": "arrow-pipe",
+            "zIndex": 0,
+            "id": "f259d75b-8000-4df3-a084-75d1c53bbd20",
+            "source": {
+                "x": 312,
+                "y": 596
+            },
+            "target": {
+                "x": 312,
+                "y": 639
+            }
+        },
+        {
+            "shape": "arrow-pipe",
+            "zIndex": 0,
+            "id": "c07ba9fd-c5bf-40fa-889f-e8a6ccffc4dd",
+            "source": {
+                "x": 312,
+                "y": 451
+            },
+            "target": {
+                "cell": "35296e2a-6805-49fe-82e4-74679eafb906",
+                "port": "a7dd3a11-4e1e-472a-9781-7af574803bea"
+            },
+            "vertices": []
+        },
+        {
+            "shape": "pipe",
+            "zIndex": 0,
+            "id": "a372514a-1c6d-4eff-bce0-b3b0b66e8df1",
+            "source": {
+                "x": -1255,
+                "y": 1407
+            },
+            "target": {
+                "x": 2141,
+                "y": 1407
+            }
+        },
+        {
+            "shape": "arrow-pipe",
+            "zIndex": 0,
+            "id": "93bd2daa-6acb-42d4-babf-d4c5931bbb53",
+            "source": {
+                "x": 2140,
+                "y": 1403
+            },
+            "target": {
+                "cell": "a200fa14-bccb-4c7c-ae8e-aa53dcfa6ade",
+                "port": "c28d8e9b-743e-4ba7-8566-e3492a603919"
+            },
+            "vertices": [
+                {
+                    "x": 2140,
+                    "y": 1598.5
+                }
+            ]
+        },
+        {
+            "shape": "pipe",
+            "zIndex": 0,
+            "id": "07339ec3-6f40-41a0-8fdf-b727f67a8a49",
+            "source": {
+                "x": 2422,
+                "y": 1413
+            },
+            "target": {
+                "cell": "bb3c1f2f-1324-462d-8a5a-12ce6339dbbf",
+                "port": "657efb8a-2582-4151-b62a-1a534c04895c"
+            }
+        },
+        {
+            "shape": "arrow-pipe",
+            "zIndex": 0,
+            "id": "c4cda33c-63ba-4f3b-ac83-849794f79a71",
+            "source": {
+                "x": 2140,
+                "y": 1407
+            },
+            "target": {
+                "x": 2314,
+                "y": 1407
+            }
+        },
+        {
+            "shape": "pipe",
+            "zIndex": 0,
+            "id": "618866be-0b83-47ad-a0c2-69a0c8e382ae",
+            "source": {
+                "cell": "a200fa14-bccb-4c7c-ae8e-aa53dcfa6ade",
+                "port": "60a22656-db02-45dd-9e40-e3c5afdf8b45"
+            },
+            "target": {
+                "cell": "9d5bf959-5c77-49eb-9cb6-5c089f28293c",
+                "port": "657efb8a-2582-4151-b62a-1a534c04895c"
             }
         },
         {
             "position": {
-                "x": 365,
+                "x": 212,
                 "y": 298.5000000000001
             },
             "size": {
@@ -888,16 +888,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -989,8 +989,8 @@
         },
         {
             "position": {
-                "x": 1,
-                "y": 298.5000000000001
+                "x": -395,
+                "y": 294.5000000000001
             },
             "size": {
                 "width": 200,
@@ -1001,16 +1001,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -1102,7 +1102,7 @@
         },
         {
             "position": {
-                "x": -429,
+                "x": -825,
                 "y": 298.5000000000001
             },
             "size": {
@@ -1114,16 +1114,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -1215,8 +1215,8 @@
         },
         {
             "position": {
-                "x": -404,
-                "y": 195.00000000000068
+                "x": -800,
+                "y": 191.00000000000068
             },
             "size": {
                 "width": 150,
@@ -1327,8 +1327,8 @@
         },
         {
             "position": {
-                "x": 26,
-                "y": 195.00000000000068
+                "x": -370,
+                "y": 191.00000000000068
             },
             "size": {
                 "width": 150,
@@ -1439,7 +1439,7 @@
         },
         {
             "position": {
-                "x": 390,
+                "x": 237,
                 "y": 195.00000000000068
             },
             "size": {
@@ -1551,8 +1551,8 @@
         },
         {
             "position": {
-                "x": 415,
-                "y": 536
+                "x": 237,
+                "y": 526
             },
             "size": {
                 "width": 150,
@@ -1659,8 +1659,8 @@
         },
         {
             "position": {
-                "x": -429,
-                "y": 536
+                "x": -825,
+                "y": 532
             },
             "size": {
                 "width": 200,
@@ -1671,16 +1671,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -1772,8 +1772,8 @@
         },
         {
             "position": {
-                "x": -404,
-                "y": 676
+                "x": -800,
+                "y": 672
             },
             "size": {
                 "width": 150,
@@ -1884,8 +1884,8 @@
         },
         {
             "position": {
-                "x": 1,
-                "y": 536
+                "x": -395,
+                "y": 532
             },
             "size": {
                 "width": 200,
@@ -1896,16 +1896,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -1997,8 +1997,8 @@
         },
         {
             "position": {
-                "x": 26,
-                "y": 676
+                "x": -370,
+                "y": 672
             },
             "size": {
                 "width": 150,
@@ -2109,7 +2109,7 @@
         },
         {
             "position": {
-                "x": 365,
+                "x": 212,
                 "y": 628
             },
             "size": {
@@ -2121,16 +2121,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -2222,7 +2222,7 @@
         },
         {
             "position": {
-                "x": 390,
+                "x": 237,
                 "y": 776
             },
             "size": {
@@ -2554,232 +2554,6 @@
         },
         {
             "position": {
-                "x": 1700,
-                "y": 383
-            },
-            "size": {
-                "width": 200,
-                "height": 100
-            },
-            "attrs": {
-                "image": {
-                    "xlink:href": "/src/assets/zhengqibiao.png"
-                },
-                "shunshiliuliang": {
-                    "text": "瞬时流量"
-                },
-                "leijiliuliang": {
-                    "text": "累计流量"
-                },
-                "wendu": {
-                    "text": "温度"
-                },
-                "yaqiang": {
-                    "text": "压力"
-                }
-            },
-            "visible": true,
-            "shape": "zhengqibiao",
-            "ports": {
-                "groups": {
-                    "top": {
-                        "position": "top",
-                        "attrs": {
-                            "circle": {
-                                "r": 4,
-                                "magnet": true,
-                                "stroke": "#5F95FF",
-                                "strokeWidth": 1,
-                                "fill": "#fff",
-                                "style": {
-                                    "visibility": "hidden"
-                                }
-                            }
-                        }
-                    },
-                    "right": {
-                        "position": "right",
-                        "attrs": {
-                            "circle": {
-                                "r": 4,
-                                "magnet": true,
-                                "stroke": "#5F95FF",
-                                "strokeWidth": 1,
-                                "fill": "#fff",
-                                "style": {
-                                    "visibility": "hidden"
-                                }
-                            }
-                        }
-                    },
-                    "bottom": {
-                        "position": "bottom",
-                        "attrs": {
-                            "circle": {
-                                "r": 4,
-                                "magnet": true,
-                                "stroke": "#5F95FF",
-                                "strokeWidth": 1,
-                                "fill": "#fff",
-                                "style": {
-                                    "visibility": "hidden"
-                                }
-                            }
-                        }
-                    },
-                    "left": {
-                        "position": "left",
-                        "attrs": {
-                            "circle": {
-                                "r": 4,
-                                "magnet": true,
-                                "stroke": "#5F95FF",
-                                "strokeWidth": 1,
-                                "fill": "#fff",
-                                "style": {
-                                    "visibility": "hidden"
-                                }
-                            }
-                        }
-                    }
-                },
-                "items": [
-                    {
-                        "group": "top",
-                        "id": "864f8582-51f2-4e56-97d7-457bf70d692b"
-                    },
-                    {
-                        "group": "right",
-                        "id": "0c60242d-55f4-44ef-927a-c61cb3654fea"
-                    },
-                    {
-                        "group": "bottom",
-                        "id": "5fc6c493-d9ba-49a5-843e-d3d93d1ed2d8"
-                    },
-                    {
-                        "group": "left",
-                        "id": "eb7578b0-89d6-48aa-b106-d4fab14b785b"
-                    }
-                ]
-            },
-            "id": "71d0f6a9-88b8-4552-9d21-4453936e36d8",
-            "zIndex": 16
-        },
-        {
-            "position": {
-                "x": 2178,
-                "y": 498
-            },
-            "size": {
-                "width": 200,
-                "height": 100
-            },
-            "attrs": {
-                "image": {
-                    "xlink:href": "/src/assets/zhengqibiao.png"
-                },
-                "shunshiliuliang": {
-                    "text": "瞬时流量"
-                },
-                "leijiliuliang": {
-                    "text": "累计流量"
-                },
-                "wendu": {
-                    "text": "温度"
-                },
-                "yaqiang": {
-                    "text": "压力"
-                }
-            },
-            "visible": true,
-            "shape": "zhengqibiao",
-            "ports": {
-                "groups": {
-                    "top": {
-                        "position": "top",
-                        "attrs": {
-                            "circle": {
-                                "r": 4,
-                                "magnet": true,
-                                "stroke": "#5F95FF",
-                                "strokeWidth": 1,
-                                "fill": "#fff",
-                                "style": {
-                                    "visibility": "hidden"
-                                }
-                            }
-                        }
-                    },
-                    "right": {
-                        "position": "right",
-                        "attrs": {
-                            "circle": {
-                                "r": 4,
-                                "magnet": true,
-                                "stroke": "#5F95FF",
-                                "strokeWidth": 1,
-                                "fill": "#fff",
-                                "style": {
-                                    "visibility": "hidden"
-                                }
-                            }
-                        }
-                    },
-                    "bottom": {
-                        "position": "bottom",
-                        "attrs": {
-                            "circle": {
-                                "r": 4,
-                                "magnet": true,
-                                "stroke": "#5F95FF",
-                                "strokeWidth": 1,
-                                "fill": "#fff",
-                                "style": {
-                                    "visibility": "hidden"
-                                }
-                            }
-                        }
-                    },
-                    "left": {
-                        "position": "left",
-                        "attrs": {
-                            "circle": {
-                                "r": 4,
-                                "magnet": true,
-                                "stroke": "#5F95FF",
-                                "strokeWidth": 1,
-                                "fill": "#fff",
-                                "style": {
-                                    "visibility": "hidden"
-                                }
-                            }
-                        }
-                    }
-                },
-                "items": [
-                    {
-                        "group": "top",
-                        "id": "864f8582-51f2-4e56-97d7-457bf70d692b"
-                    },
-                    {
-                        "group": "right",
-                        "id": "0c60242d-55f4-44ef-927a-c61cb3654fea"
-                    },
-                    {
-                        "group": "bottom",
-                        "id": "5fc6c493-d9ba-49a5-843e-d3d93d1ed2d8"
-                    },
-                    {
-                        "group": "left",
-                        "id": "eb7578b0-89d6-48aa-b106-d4fab14b785b"
-                    }
-                ]
-            },
-            "id": "dfc316e1-f9d1-4a67-9ed2-4a785b6a39f6",
-            "zIndex": 17
-        },
-        {
-            "position": {
                 "x": 1312,
                 "y": 620
             },
@@ -2792,16 +2566,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -2893,8 +2667,8 @@
         },
         {
             "position": {
-                "x": 1577,
-                "y": 681
+                "x": 1635,
+                "y": 676
             },
             "size": {
                 "width": 200,
@@ -2905,16 +2679,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -3006,7 +2780,7 @@
         },
         {
             "position": {
-                "x": 1777,
+                "x": 1925,
                 "y": 676
             },
             "size": {
@@ -3018,16 +2792,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -3119,8 +2893,8 @@
         },
         {
             "position": {
-                "x": 1998,
-                "y": 666
+                "x": 2222,
+                "y": 661
             },
             "size": {
                 "width": 200,
@@ -3131,16 +2905,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -3232,11 +3006,11 @@
         },
         {
             "position": {
-                "x": 1337,
+                "x": 1332,
                 "y": 801
             },
             "size": {
-                "width": 150,
+                "width": 160,
                 "height": 70
             },
             "attrs": {
@@ -3344,7 +3118,7 @@
         },
         {
             "position": {
-                "x": 1602,
+                "x": 1660,
                 "y": 801
             },
             "size": {
@@ -3456,7 +3230,7 @@
         },
         {
             "position": {
-                "x": 1792,
+                "x": 1940,
                 "y": 798.5
             },
             "size": {
@@ -3568,7 +3342,7 @@
         },
         {
             "position": {
-                "x": 2014,
+                "x": 2238,
                 "y": 799
             },
             "size": {
@@ -4024,16 +3798,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -4361,16 +4135,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -4462,8 +4236,8 @@
         },
         {
             "position": {
-                "x": 386,
-                "y": 1450
+                "x": 206.5,
+                "y": 1466
             },
             "size": {
                 "width": 200,
@@ -4474,16 +4248,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -4587,16 +4361,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -4700,16 +4474,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -4801,8 +4575,8 @@
         },
         {
             "position": {
-                "x": 586,
-                "y": 1450
+                "x": 510,
+                "y": 1466
             },
             "size": {
                 "width": 200,
@@ -4813,16 +4587,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -4914,8 +4688,8 @@
         },
         {
             "position": {
-                "x": 786,
-                "y": 1450
+                "x": 812,
+                "y": 1466
             },
             "size": {
                 "width": 200,
@@ -4926,16 +4700,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -5027,8 +4801,8 @@
         },
         {
             "position": {
-                "x": 1002,
-                "y": 1450
+                "x": 1105,
+                "y": 1464.5
             },
             "size": {
                 "width": 200,
@@ -5039,16 +4813,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -5140,8 +4914,8 @@
         },
         {
             "position": {
-                "x": 1202,
-                "y": 1450
+                "x": 1396.5,
+                "y": 1466
             },
             "size": {
                 "width": 200,
@@ -5152,16 +4926,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -5253,8 +5027,8 @@
         },
         {
             "position": {
-                "x": 1402,
-                "y": 1450
+                "x": 1657,
+                "y": 1464.5
             },
             "size": {
                 "width": 200,
@@ -5265,16 +5039,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -5366,8 +5140,8 @@
         },
         {
             "position": {
-                "x": 1610,
-                "y": 1450
+                "x": 1925,
+                "y": 1466
             },
             "size": {
                 "width": 200,
@@ -5378,16 +5152,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -5479,8 +5253,8 @@
         },
         {
             "position": {
-                "x": 190,
-                "y": 1460.5
+                "x": -84,
+                "y": 1466
             },
             "size": {
                 "width": 200,
@@ -5491,16 +5265,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -5592,8 +5366,8 @@
         },
         {
             "position": {
-                "x": -59,
-                "y": 1450
+                "x": -364,
+                "y": 1476
             },
             "size": {
                 "width": 200,
@@ -5604,16 +5378,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -5705,8 +5479,8 @@
         },
         {
             "position": {
-                "x": -269,
-                "y": 1450
+                "x": -683,
+                "y": 1476
             },
             "size": {
                 "width": 200,
@@ -5717,16 +5491,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -5818,8 +5592,8 @@
         },
         {
             "position": {
-                "x": -483,
-                "y": 1450
+                "x": -1000,
+                "y": 1476
             },
             "size": {
                 "width": 200,
@@ -5830,16 +5604,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -5931,8 +5705,8 @@
         },
         {
             "position": {
-                "x": -688,
-                "y": 1450
+                "x": -1319,
+                "y": 1479
             },
             "size": {
                 "width": 200,
@@ -5943,16 +5717,16 @@
                     "xlink:href": "/src/assets/zhengqibiao.png"
                 },
                 "shunshiliuliang": {
-                    "text": "瞬时流量"
+                    "text": "瞬时流量 XX ㎡"
                 },
                 "leijiliuliang": {
-                    "text": "累计流量"
+                    "text": "累计流量 XX ㎡"
                 },
                 "wendu": {
-                    "text": "温度"
+                    "text": "温度 XX ℃"
                 },
                 "yaqiang": {
-                    "text": "压力"
+                    "text": "压力 XX Pa"
                 }
             },
             "visible": true,
@@ -6044,8 +5818,8 @@
         },
         {
             "position": {
-                "x": -663,
-                "y": 1590.5
+                "x": -1294,
+                "y": 1628.5
             },
             "size": {
                 "width": 150,
@@ -6156,8 +5930,8 @@
         },
         {
             "position": {
-                "x": -458,
-                "y": 1590.5
+                "x": -975,
+                "y": 1619.5
             },
             "size": {
                 "width": 150,
@@ -6268,8 +6042,8 @@
         },
         {
             "position": {
-                "x": -244,
-                "y": 1590.5
+                "x": -658,
+                "y": 1611.5
             },
             "size": {
                 "width": 150,
@@ -6380,8 +6154,8 @@
         },
         {
             "position": {
-                "x": -34,
-                "y": 1585.5
+                "x": -339,
+                "y": 1611.5
             },
             "size": {
                 "width": 150,
@@ -6492,8 +6266,8 @@
         },
         {
             "position": {
-                "x": 190,
-                "y": 1588
+                "x": -84,
+                "y": 1614
             },
             "size": {
                 "width": 200,
@@ -6604,8 +6378,8 @@
         },
         {
             "position": {
-                "x": 408,
-                "y": 1586.5
+                "x": 228,
+                "y": 1614.5
             },
             "size": {
                 "width": 157,
@@ -6716,8 +6490,8 @@
         },
         {
             "position": {
-                "x": 611,
-                "y": 1590.5
+                "x": 535,
+                "y": 1616.5
             },
             "size": {
                 "width": 150,
@@ -6828,8 +6602,8 @@
         },
         {
             "position": {
-                "x": 811,
-                "y": 1590.5
+                "x": 837,
+                "y": 1606.5
             },
             "size": {
                 "width": 150,
@@ -6940,8 +6714,8 @@
         },
         {
             "position": {
-                "x": 1027,
-                "y": 1590.5
+                "x": 1130,
+                "y": 1606.5
             },
             "size": {
                 "width": 150,
@@ -7052,8 +6826,8 @@
         },
         {
             "position": {
-                "x": 1227,
-                "y": 1590.5
+                "x": 1421.5,
+                "y": 1606.5
             },
             "size": {
                 "width": 150,
@@ -7164,8 +6938,8 @@
         },
         {
             "position": {
-                "x": 1427,
-                "y": 1593
+                "x": 1682,
+                "y": 1606.5
             },
             "size": {
                 "width": 150,
@@ -7276,8 +7050,8 @@
         },
         {
             "position": {
-                "x": 1635,
-                "y": 1598
+                "x": 1950,
+                "y": 1611.5
             },
             "size": {
                 "width": 150,
@@ -7387,9 +7161,10 @@
             "zIndex": 58
         },
         {
+            "angle": 90,
             "position": {
-                "x": 2115,
-                "y": 1375
+                "x": 2272,
+                "y": 1337
             },
             "size": {
                 "width": 200,
@@ -7488,9 +7263,10 @@
             "zIndex": 59
         },
         {
+            "angle": 90,
             "position": {
-                "x": 2115,
-                "y": 1560.5
+                "x": 2272,
+                "y": 1548.5
             },
             "size": {
                 "width": 200,
@@ -7590,8 +7366,8 @@
         },
         {
             "position": {
-                "x": 2444,
-                "y": 1390
+                "x": 2545,
+                "y": 1378
             },
             "size": {
                 "width": 150,
@@ -7698,8 +7474,8 @@
         },
         {
             "position": {
-                "x": 2444,
-                "y": 1575.5
+                "x": 2545,
+                "y": 1566
             },
             "size": {
                 "width": 150,
@@ -7806,8 +7582,8 @@
         },
         {
             "position": {
-                "x": 397.5,
-                "y": 101.00000000000014
+                "x": -362.5,
+                "y": 53.00000000000014
             },
             "size": {
                 "width": 135,
@@ -7914,8 +7690,8 @@
         },
         {
             "position": {
-                "x": 1108,
-                "y": 217
+                "x": 1735,
+                "y": 173
             },
             "size": {
                 "width": 100,
@@ -8022,8 +7798,8 @@
         },
         {
             "position": {
-                "x": -159,
-                "y": 1005
+                "x": -213.5,
+                "y": 1098.5
             },
             "size": {
                 "width": 100,
@@ -8130,12 +7906,12 @@
         },
         {
             "position": {
-                "x": -843,
-                "y": 1655.5
+                "x": -1448,
+                "y": 1712
             },
             "size": {
-                "width": 170,
-                "height": 120
+                "width": 243,
+                "height": 45
             },
             "attrs": {
                 "text": {
@@ -8238,12 +8014,12 @@
         },
         {
             "position": {
-                "x": 106,
-                "y": 1677.5
+                "x": -309,
+                "y": 1701
             },
             "size": {
-                "width": 105,
-                "height": 50
+                "width": 253,
+                "height": 56
             },
             "attrs": {
                 "text": {
@@ -8346,8 +8122,8 @@
         },
         {
             "position": {
-                "x": 336,
-                "y": 1675
+                "x": 91,
+                "y": 1698.5
             },
             "size": {
                 "width": 105,
@@ -8454,8 +8230,8 @@
         },
         {
             "position": {
-                "x": 1512,
-                "y": 1700
+                "x": 1494,
+                "y": 1716
             },
             "size": {
                 "width": 150,
@@ -8670,7 +8446,7 @@
         },
         {
             "position": {
-                "x": 768.5,
+                "x": 786.5,
                 "y": 960
             },
             "size": {
@@ -8886,8 +8662,8 @@
         },
         {
             "position": {
-                "x": -629,
-                "y": 766
+                "x": -1025,
+                "y": 762
             },
             "size": {
                 "width": 130,
@@ -8994,7 +8770,7 @@
         },
         {
             "position": {
-                "x": 218.5,
+                "x": 65.5,
                 "y": 821
             },
             "size": {
@@ -9102,8 +8878,8 @@
         },
         {
             "position": {
-                "x": -685,
-                "y": 115.00000000000068
+                "x": -1081,
+                "y": 111.00000000000068
             },
             "size": {
                 "width": 195,
@@ -9534,12 +9310,238 @@
         },
         {
             "position": {
-                "x": 176,
-                "y": -39.99999999999895
+                "x": 1700,
+                "y": 383
             },
             "size": {
-                "width": 330,
-                "height": 90
+                "width": 200,
+                "height": 100
+            },
+            "attrs": {
+                "image": {
+                    "xlink:href": "/src/assets/zhengqibiao.png"
+                },
+                "shunshiliuliang": {
+                    "text": "瞬时流量 XX ㎡"
+                },
+                "leijiliuliang": {
+                    "text": "累计流量 XX ㎡"
+                },
+                "wendu": {
+                    "text": "温度 XX ℃"
+                },
+                "yaqiang": {
+                    "text": "压力 XX Pa"
+                }
+            },
+            "visible": true,
+            "shape": "zhengqiyibiao_label-right",
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "eee845c2-e547-4644-a1ee-9a5ca823b29f"
+                    },
+                    {
+                        "group": "right",
+                        "id": "93811f8e-c5cd-4a25-bb12-48dc89713162"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "4dd07041-b95c-4ff4-8cfa-3a913acdd70f"
+                    },
+                    {
+                        "group": "left",
+                        "id": "068dd4f1-f95a-40e4-8752-6e12e47bc23b"
+                    }
+                ]
+            },
+            "id": "9aa5491e-17c5-4f3b-8167-443ce01b3688",
+            "zIndex": 80
+        },
+        {
+            "position": {
+                "x": 2383,
+                "y": 496
+            },
+            "size": {
+                "width": 200,
+                "height": 100
+            },
+            "attrs": {
+                "image": {
+                    "xlink:href": "/src/assets/zhengqibiao.png"
+                },
+                "shunshiliuliang": {
+                    "text": "瞬时流量 XX ㎡"
+                },
+                "leijiliuliang": {
+                    "text": "累计流量 XX ㎡"
+                },
+                "wendu": {
+                    "text": "温度 XX ℃"
+                },
+                "yaqiang": {
+                    "text": "压力 XX Pa"
+                }
+            },
+            "visible": true,
+            "shape": "zhengqiyibiao_label-right",
+            "ports": {
+                "groups": {
+                    "top": {
+                        "position": "top",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "position": "right",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "bottom": {
+                        "position": "bottom",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    },
+                    "left": {
+                        "position": "left",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "top",
+                        "id": "607b9498-7766-4e83-9234-65e2eca779f9"
+                    },
+                    {
+                        "group": "right",
+                        "id": "eeeb7eb1-2ef0-480a-8104-988449022678"
+                    },
+                    {
+                        "group": "bottom",
+                        "id": "da11d06f-fcc3-4927-8368-20382661321f"
+                    },
+                    {
+                        "group": "left",
+                        "id": "84312c4b-6d71-4272-bb6e-22c03c1f4b05"
+                    }
+                ]
+            },
+            "id": "0291112b-3e56-451a-ad7c-166c3e9ca182",
+            "zIndex": 81
+        },
+        {
+            "position": {
+                "x": 658.5,
+                "y": -82.00000000000333
+            },
+            "size": {
+                "width": 641,
+                "height": 101
             },
             "attrs": {
                 "text": {
@@ -9547,7 +9549,7 @@
                 }
             },
             "visible": true,
-            "shape": "custom-label",
+            "shape": "custom-title",
             "tools": {
                 "items": [
                     {
@@ -9621,24 +9623,24 @@
                 "items": [
                     {
                         "group": "top",
-                        "id": "933a1eb2-0241-4f32-a54f-2cc84ffc5824"
+                        "id": "c98df1f1-d382-49aa-bc5d-ddce38a0060f"
                     },
                     {
                         "group": "right",
-                        "id": "30e65deb-ef5d-4288-82ef-2604a13c9b87"
+                        "id": "7f2c2909-3c58-4672-aa20-07eb8628a29a"
                     },
                     {
                         "group": "bottom",
-                        "id": "280440cd-9422-4235-9d52-c71652a52ce7"
+                        "id": "3ca7ce1e-6b7c-494d-93e9-9e9c3a7bece2"
                     },
                     {
                         "group": "left",
-                        "id": "c29d9d53-8306-48dc-94f2-67760495f2e2"
+                        "id": "9438f5ed-ab90-467d-a6e8-154ac1d8e992"
                     }
                 ]
             },
-            "id": "8cc9aab1-1f3f-4c29-9c16-d6a139802198",
-            "zIndex": 79
+            "id": "0935d913-1262-4a10-b189-8f78bd640719",
+            "zIndex": 82
         }
     ]
 }
