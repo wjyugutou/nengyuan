@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import type { Graph } from '@antv/x6'
-import { onMounted, shallowRef } from 'vue'
-import { initGraph, initPorts, initStencil, initStencilNode, regEdge, regNode } from './utils'
-import data from '@/assets/data.json'
+import type { Graph, Model } from '@antv/x6'
+import data from '@/assets/data/data.json'
 
 const graphR = shallowRef<Graph>()
 
@@ -83,15 +81,12 @@ function initevent(graph: Graph) {
 function handleClickSave() {
   const json = graphR.value!.toJSON()
 
-  console.log('save', json)
+  downloadJson(json)
 }
 
 function handleClickPng() {
   graphR.value!.toPNG((dataURI) => {
-    const save_link = document.createElement('a')
-    save_link.href = dataURI
-    save_link.download = 'name.png'
-    save_link.click()
+    download(dataURI, 'name.png')
   })
 }
 
@@ -109,7 +104,7 @@ onMounted(() => {
   initKeyboard(graph)
   initevent(graph)
 
-  graph.fromJSON(data)
+  graph.fromJSON(data as Model.FromJSONData)
 })
 </script>
 

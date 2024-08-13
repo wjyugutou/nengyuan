@@ -21,7 +21,14 @@
     "noUnusedParameters": true,
     "skipLibCheck": true,
     "noEmit": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+
+    
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["./types/auto-imports.d.ts"]
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "types/auto-imports.d.ts"]
 }
