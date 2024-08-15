@@ -90,7 +90,6 @@ declare module 'vue' {
     readonly getCurrentScope: UnwrapRef<typeof import('vue')['getCurrentScope']>
     readonly h: UnwrapRef<typeof import('vue')['h']>
     readonly initGraph: UnwrapRef<typeof import('../src/utils/x6')['initGraph']>
-    readonly initPorts: UnwrapRef<typeof import('../src/utils/x6')['initPorts']>
     readonly initStencil: UnwrapRef<typeof import('../src/utils/x6')['initStencil']>
     readonly initStencilNode: UnwrapRef<typeof import('../src/utils/x6')['initStencilNode']>
     readonly inject: UnwrapRef<typeof import('vue')['inject']>

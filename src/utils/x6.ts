@@ -5,118 +5,12 @@ import { Snapline } from '@antv/x6-plugin-snapline'
 import { Keyboard } from '@antv/x6-plugin-keyboard'
 import { Clipboard } from '@antv/x6-plugin-clipboard'
 import { History } from '@antv/x6-plugin-history'
-import type { PortManager } from '@antv/x6/lib/model/port'
 import { Export } from '@antv/x6-plugin-export'
 import { Stencil } from '@antv/x6-plugin-stencil'
 import zhengqibiao from '@/assets/zhengqibiao.png'
 import yibiao from '@/assets/yibiao.png'
 
-export function initPorts(graph: Graph) {
-  // #region 初始化图形
-  const ports: Partial<PortManager.Metadata> = {
-    groups: {
-      top: {
-        position: 'top',
-        attrs: {
-          circle: {
-            r: 4,
-            magnet: true,
-            stroke: '#5F95FF',
-            strokeWidth: 1,
-            fill: '#fff',
-            style: {
-              visibility: 'hidden',
-            },
-          },
-        },
-      },
-      right: {
-        position: 'right',
-        attrs: {
-          circle: {
-            r: 4,
-            magnet: true,
-            stroke: '#5F95FF',
-            strokeWidth: 1,
-            fill: '#fff',
-            style: {
-              visibility: 'hidden',
-            },
-          },
-        },
-      },
-      bottom: {
-        position: 'bottom',
-        attrs: {
-          circle: {
-            r: 4,
-            magnet: true,
-            stroke: '#5F95FF',
-            strokeWidth: 1,
-            fill: '#fff',
-            style: {
-              visibility: 'hidden',
-            },
-          },
-        },
-      },
-      left: {
-        position: 'left',
-        attrs: {
-          circle: {
-            r: 4,
-            magnet: true,
-            stroke: '#5F95FF',
-            strokeWidth: 1,
-            fill: '#fff',
-            style: {
-              visibility: 'hidden',
-            },
-          },
-        },
-      },
-    },
-    items: [
-      {
-        group: 'top',
-      },
-      {
-        group: 'right',
-      },
-      {
-        group: 'bottom',
-      },
-      {
-        group: 'left',
-      },
-    ],
-  }
-
-  // 控制连接桩显示/隐藏
-  const showPorts = (ports: NodeListOf<SVGElement>, show: boolean) => {
-    for (let i = 0, len = ports.length; i < len; i += 1) {
-      ports[i].style.visibility = show ? 'visible' : 'hidden'
-    }
-  }
-  graph.on('node:mouseenter', () => {
-    const container = document.getElementById('container')!
-    const ports = container.querySelectorAll(
-      '.x6-port-body',
-    ) as NodeListOf<SVGElement>
-    showPorts(ports, true)
-  })
-  graph.on('node:mouseleave', () => {
-    const container = document.getElementById('container')!
-    const ports = container.querySelectorAll(
-      '.x6-port-body',
-    ) as NodeListOf<SVGElement>
-    showPorts(ports, false)
-  })
-
-  return ports
-}
-
-export function regNode(ports: Partial<PortManager.Metadata>) {
+export function regNode() {
   // 椭圆
   Graph.registerNode(
     'custom-rect',
@@ -135,14 +29,8 @@ export function regNode(ports: Partial<PortManager.Metadata>) {
           fill: '#262626',
         },
       },
-      ports: { ...ports },
-      tools: [
-        {
-          name: 'node-editor',
-        },
-      ],
     },
-    true,
+    false,
   )
   // 1级标题
   Graph.registerNode(
@@ -162,15 +50,8 @@ export function regNode(ports: Partial<PortManager.Metadata>) {
           fontWeight: 900,
         },
       },
-      ports: { ...ports },
-
-      tools: [
-        {
-          name: 'node-editor',
-        },
-      ],
     },
-    true,
+    false,
   )
   // 2级标题
   Graph.registerNode(
@@ -189,15 +70,8 @@ export function regNode(ports: Partial<PortManager.Metadata>) {
           fill: '#000',
         },
       },
-      ports: { ...ports },
-
-      tools: [
-        {
-          name: 'node-editor',
-        },
-      ],
     },
-    true,
+    false,
   )
   // 蒸汽仪表
   Graph.registerNode(
@@ -208,13 +82,7 @@ export function regNode(ports: Partial<PortManager.Metadata>) {
       height: 100,
       markup: [
         { tagName: 'rect', selector: 'body' },
-        { tagName: 'rect', selector: 'shunshiliuliangBG' },
-        { tagName: 'rect', selector: 'leijiliuliangBG' },
         { tagName: 'image' },
-        { tagName: 'text', selector: 'shunshiliuliang' },
-        { tagName: 'text', selector: 'leijiliuliang' },
-        { tagName: 'text', selector: 'wendu' },
-        { tagName: 'text', selector: 'yaqiang' },
       ],
       attrs: {
         body: {
@@ -226,77 +94,86 @@ export function regNode(ports: Partial<PortManager.Metadata>) {
           refWidth: 1,
           refHeight: 1,
         },
-        shunshiliuliang: {
-          ref: 'body',
-          refX: -110,
-          refY: 0,
-          textAnchor: 'left',
-          textVerticalAnchor: 'top',
-          fontSize: 24,
-          fill: '#000',
-        },
-        shunshiliuliangBG: {
-          ref: 'shunshiliuliang',
-          refX: 0,
-          refY: 0,
-          refWidth: 1,
-          refHeight: 1,
-          fill: '#00FFFF',
-          stroke: 'transtarent',
-        },
-        leijiliuliang: {
-          ref: 'shunshiliuliang',
-          refX: 0,
-          refY: 40,
-          textAnchor: 'left',
-          textVerticalAnchor: 'top',
-          fontSize: 24,
-          fill: '#000',
-        },
-        leijiliuliangBG: {
-          ref: 'leijiliuliang',
-          refX: 0,
-          refY: 0,
-          refWidth: 1,
-          refHeight: 1,
-          fill: '#81D3F8',
-          stroke: 'transtarent',
-        },
-        wendu: {
-          ref: 'leijiliuliang',
-          refX: 0,
-          refY: 40,
-          textAnchor: 'left',
-          textVerticalAnchor: 'top',
-          fontSize: 24,
-          fill: '#FF6464',
-        },
-        yaqiang: {
-          ref: 'wendu',
-          refX: 0,
-          refY: 40,
-          textAnchor: 'left',
-          textVerticalAnchor: 'top',
-          fontSize: 24,
-          fill: '#007DFE',
-        },
       },
-      ports: { ...ports },
-
     },
-    true,
+    false,
   )
-  // 蒸汽仪表-label_right
-  Graph.registerNode('zhengqiyibiao_label-right', {
-    inherit: 'zhengqibiao',
+  // 蒸汽仪表-label
+  Graph.registerNode('zhengqiyibiao_label', {
+    inherit: 'rect',
+    width: 165,
+    height: 134,
+    markup: [
+      { tagName: 'rect', selector: 'body' },
+      { tagName: 'rect', selector: 'shunshiliuliangBG' },
+      { tagName: 'rect', selector: 'leijiliuliangBG' },
+      { tagName: 'text', selector: 'shunshiliuliang' },
+      { tagName: 'text', selector: 'leijiliuliang' },
+      { tagName: 'text', selector: 'wendu' },
+      { tagName: 'text', selector: 'yaqiang' },
+    ],
     attrs: {
+      body: {
+        stroke: 'transparent',
+        fill: 'transparent',
+      },
       shunshiliuliang: {
         ref: 'body',
-        refX: 160,
+        refX: 0,
+        refY: 0,
+        textAnchor: 'left',
+        textVerticalAnchor: 'top',
+        fontSize: 24,
+        fill: '#000',
+      },
+      shunshiliuliangBG: {
+        ref: 'shunshiliuliang',
+        refX: 0,
+        refY: 0,
+        refWidth: 1,
+        refHeight: 1,
+        fill: '#00FFFF',
+        stroke: 'transtarent',
+      },
+      leijiliuliang: {
+        ref: 'shunshiliuliang',
+        refX: 0,
+        refY: 40,
+        textAnchor: 'left',
+        textVerticalAnchor: 'top',
+        fontSize: 24,
+        fill: '#000',
+      },
+      leijiliuliangBG: {
+        ref: 'leijiliuliang',
+        refX: 0,
+        refY: 0,
+        refWidth: 1,
+        refHeight: 1,
+        fill: '#81D3F8',
+        stroke: 'transtarent',
+      },
+      wendu: {
+        ref: 'leijiliuliang',
+        refX: 0,
+        refY: 40,
+        textAnchor: 'left',
+        textVerticalAnchor: 'top',
+        fontSize: 24,
+        fill: '#FF6464',
+      },
+      yaqiang: {
+        ref: 'wendu',
+        refX: 0,
+        refY: 40,
+        textAnchor: 'left',
+        textVerticalAnchor: 'top',
+        fontSize: 24,
+        fill: '#007DFE',
       },
     },
-    ports: { ...ports },
-  }, true)
+
+  }, false)
 
   // 仪表
   Graph.registerNode(
@@ -319,19 +196,23 @@ export function regNode(ports: Partial<PortManager.Metadata>) {
           refHeight: 1,
         },
       },
-      ports: { ...ports },
-
     },
-    true,
+    false,
   )
 }
 
 export function regEdge() {
   Graph.registerEdge('pipe', {
     inherit: 'edge',
+    connector: {
+      name: 'jumpover',
+      args: {
+        size: 10,
+      },
+    },
     attrs: {
       line: {
-        stroke: '#A2B1C3',
+        stroke: '#0099CC',
         strokeWidth: 8,
         targetMarker: null,
       },
@@ -341,9 +222,15 @@ export function regEdge() {
 
   Graph.registerEdge('arrow-pipe', {
     inherit: 'edge',
+    connector: {
+      name: 'jumpover',
+      args: {
+        size: 10,
+      },
+    },
     attrs: {
       line: {
-        stroke: '#A2B1C3',
+        stroke: '#0099CC',
         strokeWidth: 8,
         targetMarker: {
           name: 'block',
@@ -390,7 +277,7 @@ export function initGraph() {
       maxScale: 3,
     },
     connecting: {
-      router: 'manhattan',
+      router: 'orth',
       connector: {
         name: 'rounded',
         args: {
@@ -406,7 +293,7 @@ export function initGraph() {
         return new Shape.Edge({
           attrs: {
             line: {
-              stroke: '#A2B1C3',
+              stroke: '#0099CC',
               strokeWidth: 8,
               targetMarker: {
                 name: 'block',
@@ -457,7 +344,7 @@ export function initGraph() {
     )
     .use(new Snapline())
     .use(new Keyboard())
-    .use(new Clipboard())
+    .use(new Clipboard({ enabled: true }))
     .use(new History())
     .use(new Export())
   return graph
@@ -502,38 +389,23 @@ export function initStencilNode(graph: Graph, stencil: Stencil) {
       image: {
         'xlink:href': zhengqibiao,
       },
-      shunshiliuliang: {
-        text: '瞬时流量',
-      },
-      leijiliuliang: {
-        text: '累计流量',
-      },
-      wendu: {
-        text: '温度',
-      },
-      yaqiang: {
-        text: '压力',
-      },
     },
   })
 
   const zhengqiyibiao_labelRight = graph.createNode({
-    shape: 'zhengqiyibiao_label-right',
+    shape: 'zhengqiyibiao_label',
     attrs: {
-      image: {
-        'xlink:href': zhengqibiao,
-      },
       shunshiliuliang: {
-        text: '瞬时流量',
+        text: '瞬时流量 XX ㎡',
       },
       leijiliuliang: {
-        text: '累计流量',
+        text: '累计流量 XX ㎡',
       },
       wendu: {
-        text: '温度',
+        text: '温度 XX ℃',
       },
       yaqiang: {
-        text: '压力',
+        text: '压力 XX Pa',
       },
     },
   })
