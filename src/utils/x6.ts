@@ -27,7 +27,7 @@ export function regNode() {
         fill: '#262626',
       },
     },
-  }, false)
+  }, true)
   // 1级标题
   Graph.registerNode('custom-title', {
     inherit: 'rect',
@@ -44,7 +44,7 @@ export function regNode() {
         fontWeight: 900,
       },
     },
-  }, false)
+  }, true)
   // 2级标题
   Graph.registerNode('custom-label', {
     inherit: 'rect',
@@ -60,7 +60,7 @@ export function regNode() {
         fill: '#000',
       },
     },
-  }, false)
+  }, true)
   // 蒸汽仪表
   Graph.registerNode('zhengqibiao', {
     inherit: 'rect',
@@ -81,7 +81,7 @@ export function regNode() {
         refHeight: 1,
       },
     },
-  }, false)
+  }, true)
   // 蒸汽仪表-label
   Graph.registerNode('zhengqiyibiao_label', {
     inherit: 'rect',
@@ -157,7 +157,7 @@ export function regNode() {
       },
     },
 
-  }, false)
+  }, true)
 
   // 电表-label
   Graph.registerNode('dianbiao_label', {
@@ -194,32 +194,28 @@ export function regNode() {
       },
     },
 
-  }, false)
+  }, true)
 
   // 仪表
-  Graph.registerNode(
-    'yibiao',
-    {
-      inherit: 'rect',
-      width: 100,
-      height: 52,
-      markup: [
-        { tagName: 'rect', selector: 'body' },
-        { tagName: 'image' },
-      ],
-      attrs: {
-        body: {
-          stroke: 'transparent',
-        },
-        image: {
-          ref: 'body',
-          refWidth: 1,
-          refHeight: 1,
-        },
+  Graph.registerNode('yibiao', {
+    inherit: 'rect',
+    width: 100,
+    height: 52,
+    markup: [
+      { tagName: 'rect', selector: 'body' },
+      { tagName: 'image' },
+    ],
+    attrs: {
+      body: {
+        stroke: 'transparent',
+      },
+      image: {
+        ref: 'body',
+        refWidth: 1,
+        refHeight: 1,
       },
     },
-    false,
-  )
+  }, true)
 }
 
 export function regEdge() {
@@ -239,7 +235,7 @@ export function regEdge() {
       },
     },
     zIndex: 0,
-  })
+  }, true)
 
   Graph.registerEdge('arrow-pipe', {
     inherit: 'edge',
@@ -262,7 +258,7 @@ export function regEdge() {
       },
     },
     zIndex: 0,
-  })
+  }, true)
 
   Graph.registerEdge('dashed-line', {
     inherit: 'edge',
@@ -275,13 +271,14 @@ export function regEdge() {
       },
     },
     zIndex: 0,
-  })
+  }, true)
 }
 
-export function initGraph() {
+export function initGraph(editable: boolean = true) {
   const graph = new Graph({
     container: document.getElementById('container')!,
     autoResize: true,
+    interacting: editable,
     grid: {
       visible: false,
       size: 1,
@@ -335,17 +332,6 @@ export function initGraph() {
       },
       validateConnection({ targetMagnet }) {
         return !!targetMagnet
-      },
-    },
-    highlighting: {
-      magnetAdsorbed: {
-        name: 'stroke',
-        args: {
-          attrs: {
-            fill: '#5F95FF',
-            stroke: '#5F95FF',
-          },
-        },
       },
     },
   })

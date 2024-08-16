@@ -28,7 +28,7 @@
     "paths": {
       "@/*": ["src/*"]
     },
-    "types": ["./types/auto-imports.d.ts"]
+    "types": ["./types/auto-imports.d.ts", "./types/components.d.ts"]
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "types/auto-imports.d.ts"]
 }
