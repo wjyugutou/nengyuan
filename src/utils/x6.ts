@@ -336,25 +336,27 @@ export function initGraph(editable: boolean = true) {
       },
     },
   })
+  if (editable) {
   // 加载插件
-  graph
-    .use(
-      new Transform({
-        resizing: true,
-        rotating: true,
-      }),
-    )
-    .use(
-      new Selection({
-        rubberband: true,
-        showNodeSelectionBox: true,
-      }),
-    )
-    .use(new Snapline())
-    .use(new Keyboard())
-    .use(new Clipboard({ enabled: true }))
-    .use(new History())
-    .use(new Export())
+    graph
+      .use(
+        new Transform({
+          resizing: true,
+          rotating: true,
+        }),
+      )
+      .use(
+        new Selection({
+          rubberband: true,
+          showNodeSelectionBox: true,
+        }),
+      )
+      .use(new Snapline())
+      .use(new Keyboard())
+      .use(new Clipboard({ enabled: true }))
+      .use(new History())
+      .use(new Export())
+  }
   return graph
 }
 
