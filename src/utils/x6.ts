@@ -76,9 +76,10 @@ export function regNode() {
         fillOpacity: 0,
       },
       image: {
-        ref: 'body',
-        refWidth: 1,
-        refHeight: 1,
+        'ref': 'body',
+        'refWidth': 1,
+        'refHeight': 1,
+        'xlink:href': zhengqibiao,
       },
     },
   }, true)
@@ -392,11 +393,6 @@ export function initStencilNode(graph: Graph, stencil: Stencil) {
 
   const zhengqibiaoNode = graph.createNode({
     shape: 'zhengqibiao',
-    attrs: {
-      image: {
-        'xlink:href': zhengqibiao,
-      },
-    },
   })
 
   const zhengqiyibiaoLabel = graph.createNode({

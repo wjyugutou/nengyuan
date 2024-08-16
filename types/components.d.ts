@@ -7,7 +7,6 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    copy: typeof import('./../src/components/EditGraph copy.vue')['default']
     DisplayGraph: typeof import('./../src/components/DisplayGraph.vue')['default']
     EditGraph: typeof import('./../src/components/EditGraph.vue')['default']
   }

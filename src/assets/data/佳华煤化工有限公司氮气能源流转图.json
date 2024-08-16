@@ -1,1 +1,1695 @@
-{"cells":[{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":0,"id":"412c352e-b499-4606-8783-6db125b1b1a1","source":{"x":1594,"y":174},"target":{"x":1594,"y":316},"vertices":[]},{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":0,"id":"52d2e1b6-f27c-4397-92f9-c99f9f0b2898","source":{"x":-375,"y":171},"target":{"x":-293,"y":328},"vertices":[{"x":-351,"y":254}]},{"shape":"arrow-pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":0,"id":"b9ccb1e3-7bbe-47cb-b97e-1dce5488e371","source":{"x":12,"y":731},"target":{"x":12,"y":1274}},{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":0,"id":"da4a4a3e-5be6-4fc9-b9b3-d2f281c90920","source":{"x":9,"y":1337},"target":{"x":9,"y":1582}},{"shape":"arrow-pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":0,"id":"ac27e478-8253-4770-9846-b2a4d604d272","source":{"x":2145,"y":733},"target":{"x":2574,"y":1192},"vertices":[{"x":2265,"y":1193}]},{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":0,"id":"ac6259da-65ae-494c-9e8c-2e6cb905d555","source":{"x":2648,"y":1193},"target":{"x":2788,"y":1193},"vertices":[]},{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":0,"id":"fc6dddb3-ecdf-4b5a-a125-b0cb49c952c6","source":{"x":-192,"y":170},"target":{"x":-192,"y":318}},{"shape":"arrow-pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":0,"id":"ee627db6-8022-47a4-97ed-1f74df39723e","source":{"x":512,"y":619},"target":{"x":512,"y":381},"vertices":[]},{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":0,"id":"9f29ac47-4cbd-429f-8c6a-7e36f84c1763","source":{"x":-197,"y":622},"target":{"x":1390,"y":727}},{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":0,"id":"d8dfcf19-3c32-4589-887b-d2d77ae578c7","source":{"x":-192,"y":371},"target":{"x":-192,"y":619}},{"shape":"arrow-pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":0,"id":"a74b0aec-40a4-4ba5-b40b-3eae345f7194","source":{"x":-194,"y":474},"target":{"x":-295,"y":380},"vertices":[]},{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":0,"id":"21c7b7fa-55d7-4041-a04c-6502bee8f15e","source":{"x":2359,"y":320},"target":{"x":2547,"y":141},"vertices":[{"x":2359,"y":141}]},{"shape":"arrow-pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":0,"id":"670ad427-a40c-4841-bcae-ef39c8df5ec4","source":{"x":2361,"y":372},"target":{"x":2361,"y":718}},{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":0,"id":"ec0ff33e-ae2c-4e20-b0ae-85d1d1f17496","source":{"x":8,"y":729},"target":{"x":2373,"y":729},"vertices":[]},{"position":{"x":696,"y":-297.0000000000047},"size":{"width":998,"height":55},"attrs":{"text":{"text":"佳华煤化工有限公司氮气能源流转图"}},"visible":true,"shape":"custom-title","id":"7e9a6d69-20c9-4b32-8b31-1350b11dd62d","zIndex":1},{"position":{"x":-456,"y":-84.00000000000034},"size":{"width":262,"height":34},"attrs":{"text":{"text":"干熄焦作业区"}},"visible":true,"shape":"custom-label","id":"f195e1f1-6d67-476d-9e0c-8dac13b55227","zIndex":2},{"position":{"x":-485,"y":99},"size":{"width":182,"height":77},"attrs":{"text":{"text":"1#事故氮气"},"body":{"rx":20,"ry":26}},"visible":true,"shape":"custom-rect","id":"2a43577f-a438-4661-bb1f-70bd22639ffd","zIndex":3},{"position":{"x":-573,"y":396},"size":{"width":165,"height":134},"attrs":{"shunshiliuliang":{"text":"瞬时流量 XX ㎡"},"leijiliuliang":{"text":"累计流量 XX ㎡"},"wendu":{"text":"温度 XX ℃"},"yaqiang":{"text":"压力 XX Pa"}},"visible":true,"shape":"zhengqiyibiao_label","id":"404fadad-d43f-420b-a0ce-36d44acd81e1","zIndex":27},{"position":{"x":-117,"y":396},"size":{"width":165,"height":134},"attrs":{"shunshiliuliang":{"text":"瞬时流量 XX ㎡"},"leijiliuliang":{"text":"累计流量 XX ㎡"},"wendu":{"text":"温度 XX ℃"},"yaqiang":{"text":"压力 XX Pa"}},"visible":true,"shape":"zhengqiyibiao_label","id":"1deeb405-584a-4e0c-bbda-cf0fd8fc464e","zIndex":28},{"position":{"x":123,"y":396},"size":{"width":165,"height":134},"attrs":{"shunshiliuliang":{"text":"瞬时流量 XX ㎡"},"leijiliuliang":{"text":"累计流量 XX ㎡"},"wendu":{"text":"温度 XX ℃"},"yaqiang":{"text":"压力 XX Pa"}},"visible":true,"shape":"zhengqiyibiao_label","id":"96e5c3ae-7e4f-4227-9fb2-d3df4aaa549d","zIndex":29},{"position":{"x":609,"y":396},"size":{"width":165,"height":134},"attrs":{"shunshiliuliang":{"text":"瞬时流量 XX ㎡"},"leijiliuliang":{"text":"累计流量 XX ㎡"},"wendu":{"text":"温度 XX ℃"},"yaqiang":{"text":"压力 XX Pa"}},"visible":true,"shape":"zhengqiyibiao_label","id":"afd05126-10b9-4253-86de-4ae988f30d7f","zIndex":30},{"position":{"x":852,"y":396},"size":{"width":165,"height":134},"attrs":{"shunshiliuliang":{"text":"瞬时流量 XX ㎡"},"leijiliuliang":{"text":"累计流量 XX ㎡"},"wendu":{"text":"温度 XX ℃"},"yaqiang":{"text":"压力 XX Pa"}},"visible":true,"shape":"zhengqiyibiao_label","id":"baa1510b-b62e-4f24-8dca-1d8a3cf9d94c","zIndex":31},{"position":{"x":1246,"y":396},"size":{"width":165,"height":134},"attrs":{"shunshiliuliang":{"text":"瞬时流量 XX ㎡"},"leijiliuliang":{"text":"累计流量 XX ㎡"},"wendu":{"text":"温度 XX ℃"},"yaqiang":{"text":"压力 XX Pa"}},"visible":true,"shape":"zhengqiyibiao_label","id":"0cadc3df-be7f-45ad-a840-acca52584834","zIndex":32},{"shape":"arrow-pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":33,"id":"cb1f6a24-1a11-485b-b94a-07197baab979","source":{"x":514,"y":472},"target":{"x":415,"y":389},"vertices":[{"x":422,"y":472}]},{"shape":"arrow-pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":34,"id":"fd1e2e03-e10b-4c4c-9cdc-993e63fc1a4a","source":{"x":1179,"y":480},"target":{"x":1079,"y":384},"vertices":[{"x":1079,"y":470}]},{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":35,"id":"881dcb27-1341-431b-9830-5e1ddbb9c1fa","source":{"x":1927,"y":177},"target":{"x":1927,"y":319},"vertices":[]},{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":36,"id":"4efcea9b-fc39-4d73-8273-6371d2092f89","source":{"x":327,"y":174},"target":{"x":414,"y":310},"vertices":[{"x":351,"y":257}]},{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":37,"id":"00c28bf2-7e85-410f-bf47-f1da5fefae16","source":{"x":964,"y":177},"target":{"x":1078,"y":321},"vertices":[{"x":1017,"y":259}]},{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":40,"id":"c7d9ac2f-550f-4714-b5c4-474c78390934","source":{"x":509,"y":166},"target":{"x":509,"y":321}},{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":41,"id":"944198bc-603d-4466-b397-b94365906ec3","source":{"x":1178,"y":172},"target":{"x":1178,"y":333}},{"shape":"arrow-pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":42,"id":"d1e63c5c-dbc8-4c50-9290-902d6376b82b","source":{"x":1181,"y":620},"target":{"x":1181,"y":375},"vertices":[]},{"shape":"arrow-pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":43,"id":"10453969-9382-4f04-a833-5d68dff99500","source":{"x":1598,"y":726},"target":{"x":1598,"y":378},"vertices":[]},{"shape":"arrow-pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":44,"id":"48fdff1f-b7f5-4816-acac-176b984b8934","source":{"x":1929,"y":725},"target":{"x":1929,"y":379},"vertices":[]},{"position":{"x":1661,"y":396},"size":{"width":165,"height":134},"attrs":{"shunshiliuliang":{"text":"瞬时流量 XX ㎡"},"leijiliuliang":{"text":"累计流量 XX ㎡"},"wendu":{"text":"温度 XX ℃"},"yaqiang":{"text":"压力 XX Pa"}},"visible":true,"shape":"zhengqiyibiao_label","id":"d0cef1a2-fa4e-4da0-857b-6733d2623194","zIndex":45},{"position":{"x":1993,"y":396},"size":{"width":165,"height":134},"attrs":{"shunshiliuliang":{"text":"瞬时流量 XX ㎡"},"leijiliuliang":{"text":"累计流量 XX ㎡"},"wendu":{"text":"温度 XX ℃"},"yaqiang":{"text":"压力 XX Pa"}},"visible":true,"shape":"zhengqiyibiao_label","id":"a574d6f0-70cc-419b-87b8-5edd5f14c693","zIndex":46},{"position":{"x":123,"y":1244},"size":{"width":165,"height":134},"attrs":{"shunshiliuliang":{"text":"瞬时流量 XX ㎡"},"leijiliuliang":{"text":"累计流量 XX ㎡"},"wendu":{"text":"温度 XX ℃"},"yaqiang":{"text":"压力 XX Pa"}},"visible":true,"shape":"zhengqiyibiao_label","id":"7b02709e-7677-4848-b202-7b07a57f3450","zIndex":49},{"shape":"arrow-pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":50,"id":"b33f2ad7-cff1-44c0-8edc-8c187eba7c85","source":{"x":422,"y":732},"target":{"x":422,"y":1275}},{"position":{"x":523,"y":1244},"size":{"width":165,"height":134},"attrs":{"shunshiliuliang":{"text":"瞬时流量 XX ㎡"},"leijiliuliang":{"text":"累计流量 XX ㎡"},"wendu":{"text":"温度 XX ℃"},"yaqiang":{"text":"压力 XX Pa"}},"visible":true,"shape":"zhengqiyibiao_label","id":"82771440-34e4-41a5-b074-933532babfd0","zIndex":52},{"shape":"arrow-pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":54,"id":"8055fd6b-5532-48b3-84e4-0e1bfff0a2cc","source":{"x":840,"y":733},"target":{"x":840,"y":1276}},{"position":{"x":978,"y":1244},"size":{"width":165,"height":134},"attrs":{"shunshiliuliang":{"text":"瞬时流量 XX ㎡"},"leijiliuliang":{"text":"累计流量 XX ㎡"},"wendu":{"text":"温度 XX ℃"},"yaqiang":{"text":"压力 XX Pa"}},"visible":true,"shape":"zhengqiyibiao_label","id":"b2fc03ba-f5a3-4939-8ce9-13d6e7030a09","zIndex":55},{"position":{"x":1826,"y":1244},"size":{"width":165,"height":134},"attrs":{"shunshiliuliang":{"text":"瞬时流量 XX ㎡"},"leijiliuliang":{"text":"累计流量 XX ㎡"},"wendu":{"text":"温度 XX ℃"},"yaqiang":{"text":"压力 XX Pa"}},"visible":true,"shape":"zhengqiyibiao_label","id":"7bb4cc29-917d-4972-9ef1-a6c4d00b56c6","zIndex":57},{"shape":"arrow-pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":58,"id":"bb9c77f8-8aa4-450f-b427-6e48f84b9845","source":{"x":1724,"y":734},"target":{"x":1724,"y":1277}},{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":59,"id":"8ee00bd1-51b6-4e7f-99df-7993b7b0c8aa","source":{"x":1727,"y":1336},"target":{"x":1727,"y":1581}},{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":60,"id":"354c36b1-ee0e-4b7f-8803-14b4e5beb051","source":{"x":840,"y":1336},"target":{"x":840,"y":1581}},{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":61,"id":"8808edab-6405-425b-9566-68074869a886","source":{"x":423,"y":1336},"target":{"x":423,"y":1581}},{"shape":"arrow-pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":66,"id":"e62b9fd2-ff9d-467e-abd8-ce2b85fde457","source":{"x":2145,"y":1193},"target":{"x":2577,"y":1472},"vertices":[{"x":2145,"y":1457}]},{"shape":"pipe","connector":{"name":"jumpover","args":{"size":10}},"zIndex":69,"id":"1968bf79-dc52-479a-8f41-98c362ffc971","source":{"x":2647,"y":1471},"target":{"x":2787,"y":1471},"vertices":[]},{"position":{"x":2789,"y":1150},"size":{"width":178,"height":76},"attrs":{"text":{"text":"祥峰科技"}},"visible":true,"shape":"custom-rect","id":"69711297-4138-4d77-8b6d-e80717412164","zIndex":70},{"position":{"x":2817,"y":1603},"size":{"width":100,"height":35},"attrs":{"text":{"text":"发电作业区"}},"visible":true,"shape":"custom-label","id":"08c72e15-d1ac-4f87-b766-05e1f79cbb01","zIndex":72},{"position":{"x":2435,"y":1517},"size":{"width":165,"height":134},"attrs":{"shunshiliuliang":{"text":"瞬时流量 XX ㎡"},"leijiliuliang":{"text":"累计流量 XX ㎡"},"wendu":{"text":"温度 XX ℃"},"yaqiang":{"text":"压力 XX Pa"}},"visible":true,"shape":"zhengqiyibiao_label","id":"4b0b9e15-43bb-4815-bd22-25c5556f6040","zIndex":73},{"position":{"x":-273,"y":99},"size":{"width":182,"height":77},"attrs":{"text":{"text":"1#正常氮气"},"body":{"rx":20,"ry":26}},"visible":true,"shape":"custom-rect","id":"96268e31-153d-42a7-94dd-c7f806efa64a","zIndex":78},{"position":{"x":211,"y":99},"size":{"width":182,"height":77},"attrs":{"text":{"text":"2#事故氮气"},"body":{"rx":20,"ry":26}},"visible":true,"shape":"custom-rect","id":"2b9bd8a6-a5d7-47a8-b712-04ecd91c1dec","zIndex":79},{"position":{"x":427,"y":99},"size":{"width":182,"height":77},"attrs":{"text":{"text":"2#正常氮气"},"body":{"rx":20,"ry":26}},"visible":true,"shape":"custom-rect","id":"f693b758-bc12-43c8-9fe1-9675fae5fca7","zIndex":80},{"position":{"x":875,"y":99},"size":{"width":182,"height":77},"attrs":{"text":{"text":"3#事故氮气 "},"body":{"rx":20,"ry":26}},"visible":true,"shape":"custom-rect","id":"c5747909-3f66-46fa-a90f-369f9ebbc086","zIndex":81},{"position":{"x":1087,"y":99},"size":{"width":182,"height":77},"attrs":{"text":{"text":"3#正常氮气"},"body":{"rx":20,"ry":26}},"visible":true,"shape":"custom-rect","id":"4e27c722-dbf4-48bf-9f90-8aa8e907ab8b","zIndex":82},{"position":{"x":1503,"y":99},"size":{"width":182,"height":77},"attrs":{"text":{"text":"101转运站"},"body":{"rx":20,"ry":26}},"visible":true,"shape":"custom-rect","id":"de018e5b-761d-403d-9f0c-a03b8e2b749f","zIndex":83},{"position":{"x":1835,"y":99},"size":{"width":182,"height":77},"attrs":{"text":{"text":"105转运站 "},"body":{"rx":20,"ry":26}},"visible":true,"shape":"custom-rect","id":"4c68ae9d-3ff8-48e3-86bd-04ae861256b4","zIndex":84},{"position":{"x":-82,"y":1582},"size":{"width":182,"height":77},"attrs":{"text":{"text":"鼓冷工段"},"body":{"rx":20,"ry":26}},"visible":true,"shape":"custom-rect","id":"8a45ae2c-cbb1-4407-809c-9e2264b4edd7","zIndex":85},{"position":{"x":332,"y":1582},"size":{"width":182,"height":77},"attrs":{"text":{"text":"制酸工段"},"body":{"rx":20,"ry":26}},"visible":true,"shape":"custom-rect","id":"5f43246d-de6c-405f-80d0-56ca93a26969","zIndex":86},{"position":{"x":749,"y":1582},"size":{"width":182,"height":77},"attrs":{"text":{"text":"库区工段"},"body":{"rx":20,"ry":26}},"visible":true,"shape":"custom-rect","id":"d5fbca32-4c18-4028-bb82-8c4c9cd73900","zIndex":87},{"position":{"x":1635,"y":1582},"size":{"width":182,"height":77},"attrs":{"text":{"text":"炼焦"},"body":{"rx":20,"ry":26}},"visible":true,"shape":"custom-rect","id":"5d0b1a62-e4df-4fe8-8c7e-cbbad152079b","zIndex":88},{"position":{"x":2787,"y":1428},"size":{"width":182,"height":77},"attrs":{"text":{"text":"135MW机组"},"body":{"rx":20,"ry":26}},"visible":true,"shape":"custom-rect","id":"aab19f29-331a-466a-876d-e6c2da59cca2","zIndex":89},{"position":{"x":-273,"y":1685},"size":{"width":235,"height":62},"attrs":{"text":{"text":"净化作业区"}},"visible":true,"shape":"custom-label","id":"3f3359b2-4c42-4507-95cd-3c5c552ce08c","zIndex":90},{"position":{"x":1391,"y":1685},"size":{"width":235,"height":62},"attrs":{"text":{"text":"炼焦作业区"}},"visible":true,"shape":"custom-label","id":"f65ca666-b83c-4df2-a14e-10d1107bb139","zIndex":92},{"position":{"x":2548,"y":99.5},"size":{"width":205,"height":76},"attrs":{"text":{"text":"唐钢新区入厂"}},"visible":true,"shape":"custom-rect","id":"3a7e223c-5fec-42e0-b03f-235d8bbab907","zIndex":93},{"position":{"x":2065,"y":-92.50000000000034},"size":{"width":236,"height":51},"attrs":{"text":{"text":"备煤作业区"}},"visible":true,"shape":"custom-label","id":"9b9a5229-0ad8-46ae-b4eb-5a57b3d60d0f","zIndex":94},{"position":{"x":-394,"y":296},"size":{"width":200,"height":100},"attrs":{"image":{"xlink:href":"/src/assets/zhengqibiao.png"}},"visible":true,"shape":"zhengqibiao","id":"071e3449-8496-46e5-bf94-1110f8c75022","zIndex":95},{"position":{"x":-291,"y":296},"size":{"width":200,"height":100},"attrs":{"image":{"xlink:href":"/src/assets/zhengqibiao.png"}},"visible":true,"shape":"zhengqibiao","id":"c145d3c2-75df-4801-98d8-9455f2ac5658","zIndex":96},{"position":{"x":314,"y":296},"size":{"width":200,"height":100},"attrs":{"image":{"xlink:href":"/src/assets/zhengqibiao.png"}},"visible":true,"shape":"zhengqibiao","id":"0d872d8a-e825-46dc-8201-233f8f7af122","zIndex":97},{"position":{"x":409,"y":296},"size":{"width":200,"height":100},"attrs":{"image":{"xlink:href":"/src/assets/zhengqibiao.png"}},"visible":true,"shape":"zhengqibiao","id":"2e1bf57e-8992-4657-b882-9dbd4f510d20","zIndex":98},{"position":{"x":978,"y":296},"size":{"width":200,"height":100},"attrs":{"image":{"xlink:href":"/src/assets/zhengqibiao.png"}},"visible":true,"shape":"zhengqibiao","id":"4b216546-b94a-4bfb-88e9-089e1d019a5d","zIndex":99},{"position":{"x":1078,"y":296},"size":{"width":200,"height":100},"attrs":{"image":{"xlink:href":"/src/assets/zhengqibiao.png"}},"visible":true,"shape":"zhengqibiao","id":"e6dd7f58-7d41-4b53-b1ad-6ec11d8f820d","zIndex":100},{"position":{"x":1494,"y":296},"size":{"width":200,"height":100},"attrs":{"image":{"xlink:href":"/src/assets/zhengqibiao.png"}},"visible":true,"shape":"zhengqibiao","id":"74eedab7-4bcf-413f-b373-36f89c209b6d","zIndex":101},{"position":{"x":1826,"y":296},"size":{"width":200,"height":100},"attrs":{"image":{"xlink:href":"/src/assets/zhengqibiao.png"}},"visible":true,"shape":"zhengqibiao","id":"ce87811b-a6ed-4d74-a28f-b066a7f7c7fd","zIndex":102},{"position":{"x":2259,"y":296},"size":{"width":200,"height":100},"attrs":{"image":{"xlink:href":"/src/assets/zhengqibiao.png"}},"visible":true,"shape":"zhengqibiao","id":"e0a56cea-dd91-4796-85b3-48df9a7d95dd","zIndex":103},{"position":{"x":-91,"y":1261},"size":{"width":200,"height":100},"attrs":{"image":{"xlink:href":"/src/assets/zhengqibiao.png"}},"visible":true,"shape":"zhengqibiao","id":"d85724ed-b650-49c4-9480-957f4fbf02f6","zIndex":104},{"position":{"x":323,"y":1261},"size":{"width":200,"height":100},"attrs":{"image":{"xlink:href":"/src/assets/zhengqibiao.png"}},"visible":true,"shape":"zhengqibiao","id":"02518ac9-3854-4f1d-8baf-36f007bc2774","zIndex":105},{"position":{"x":740,"y":1261},"size":{"width":200,"height":100},"attrs":{"image":{"xlink:href":"/src/assets/zhengqibiao.png"}},"visible":true,"shape":"zhengqibiao","id":"2caed239-c89e-4d4a-9cc4-3439cab436ab","zIndex":106},{"position":{"x":1626,"y":1261},"size":{"width":200,"height":100},"attrs":{"image":{"xlink:href":"/src/assets/zhengqibiao.png"}},"visible":true,"shape":"zhengqibiao","id":"d17bc418-1c7f-4e36-9f34-2e163bb0f161","zIndex":107},{"position":{"x":2512,"y":1126},"size":{"width":200,"height":100},"attrs":{"image":{"xlink:href":"/src/assets/zhengqibiao.png"}},"visible":true,"shape":"zhengqibiao","id":"3cd22061-ab60-440c-b7ee-bac196f1bfe1","zIndex":108},{"position":{"x":2512,"y":1405},"size":{"width":200,"height":100},"attrs":{"image":{"xlink:href":"/src/assets/zhengqibiao.png"}},"visible":true,"shape":"zhengqibiao","id":"3fc06fd6-ad8b-4237-bf58-56fe44a396fd","zIndex":109}]}
+{
+  "cells": [
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 0,
+      "id": "412c352e-b499-4606-8783-6db125b1b1a1",
+      "source": {
+        "x": 1594,
+        "y": 174
+      },
+      "target": {
+        "x": 1594,
+        "y": 316
+      },
+      "vertices": []
+    },
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 0,
+      "id": "52d2e1b6-f27c-4397-92f9-c99f9f0b2898",
+      "source": {
+        "x": -375,
+        "y": 171
+      },
+      "target": {
+        "x": -293,
+        "y": 328
+      },
+      "vertices": [
+        {
+          "x": -351,
+          "y": 254
+        }
+      ]
+    },
+    {
+      "shape": "arrow-pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 0,
+      "id": "b9ccb1e3-7bbe-47cb-b97e-1dce5488e371",
+      "source": {
+        "x": 12,
+        "y": 731
+      },
+      "target": {
+        "x": 12,
+        "y": 1274
+      }
+    },
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 0,
+      "id": "da4a4a3e-5be6-4fc9-b9b3-d2f281c90920",
+      "source": {
+        "x": 9,
+        "y": 1337
+      },
+      "target": {
+        "x": 9,
+        "y": 1582
+      }
+    },
+    {
+      "shape": "arrow-pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 0,
+      "id": "ac27e478-8253-4770-9846-b2a4d604d272",
+      "source": {
+        "x": 2145,
+        "y": 733
+      },
+      "target": {
+        "x": 2574,
+        "y": 1192
+      },
+      "vertices": [
+        {
+          "x": 2265,
+          "y": 1193
+        }
+      ]
+    },
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 0,
+      "id": "ac6259da-65ae-494c-9e8c-2e6cb905d555",
+      "source": {
+        "x": 2648,
+        "y": 1193
+      },
+      "target": {
+        "x": 2788,
+        "y": 1193
+      },
+      "vertices": []
+    },
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 0,
+      "id": "fc6dddb3-ecdf-4b5a-a125-b0cb49c952c6",
+      "source": {
+        "x": -192,
+        "y": 170
+      },
+      "target": {
+        "x": -192,
+        "y": 318
+      }
+    },
+    {
+      "shape": "arrow-pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 0,
+      "id": "ee627db6-8022-47a4-97ed-1f74df39723e",
+      "source": {
+        "x": 512,
+        "y": 619
+      },
+      "target": {
+        "x": 512,
+        "y": 381
+      },
+      "vertices": []
+    },
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 0,
+      "id": "9f29ac47-4cbd-429f-8c6a-7e36f84c1763",
+      "source": {
+        "x": -197,
+        "y": 622
+      },
+      "target": {
+        "x": 1390,
+        "y": 727
+      }
+    },
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 0,
+      "id": "d8dfcf19-3c32-4589-887b-d2d77ae578c7",
+      "source": {
+        "x": -192,
+        "y": 371
+      },
+      "target": {
+        "x": -192,
+        "y": 619
+      }
+    },
+    {
+      "shape": "arrow-pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 0,
+      "id": "a74b0aec-40a4-4ba5-b40b-3eae345f7194",
+      "source": {
+        "x": -194,
+        "y": 474
+      },
+      "target": {
+        "x": -295,
+        "y": 380
+      },
+      "vertices": []
+    },
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 0,
+      "id": "21c7b7fa-55d7-4041-a04c-6502bee8f15e",
+      "source": {
+        "x": 2359,
+        "y": 320
+      },
+      "target": {
+        "x": 2547,
+        "y": 141
+      },
+      "vertices": [
+        {
+          "x": 2359,
+          "y": 141
+        }
+      ]
+    },
+    {
+      "shape": "arrow-pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 0,
+      "id": "670ad427-a40c-4841-bcae-ef39c8df5ec4",
+      "source": {
+        "x": 2361,
+        "y": 372
+      },
+      "target": {
+        "x": 2361,
+        "y": 718
+      }
+    },
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 0,
+      "id": "ec0ff33e-ae2c-4e20-b0ae-85d1d1f17496",
+      "source": {
+        "x": 8,
+        "y": 729
+      },
+      "target": {
+        "x": 2373,
+        "y": 729
+      },
+      "vertices": []
+    },
+    {
+      "position": {
+        "x": 696,
+        "y": -297.0000000000047
+      },
+      "size": {
+        "width": 998,
+        "height": 55
+      },
+      "attrs": {
+        "text": {
+          "text": "佳华煤化工有限公司氮气能源流转图"
+        }
+      },
+      "visible": true,
+      "shape": "custom-title",
+      "id": "7e9a6d69-20c9-4b32-8b31-1350b11dd62d",
+      "zIndex": 1
+    },
+    {
+      "position": {
+        "x": -456,
+        "y": -84.00000000000034
+      },
+      "size": {
+        "width": 262,
+        "height": 34
+      },
+      "attrs": {
+        "text": {
+          "text": "干熄焦作业区"
+        }
+      },
+      "visible": true,
+      "shape": "custom-label",
+      "id": "f195e1f1-6d67-476d-9e0c-8dac13b55227",
+      "zIndex": 2
+    },
+    {
+      "position": {
+        "x": -485,
+        "y": 99
+      },
+      "size": {
+        "width": 182,
+        "height": 77
+      },
+      "attrs": {
+        "text": {
+          "text": "1#事故氮气"
+        },
+        "body": {
+          "rx": 20,
+          "ry": 26
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "id": "2a43577f-a438-4661-bb1f-70bd22639ffd",
+      "zIndex": 3
+    },
+    {
+      "position": {
+        "x": -573,
+        "y": 396
+      },
+      "size": {
+        "width": 165,
+        "height": 134
+      },
+      "attrs": {
+        "shunshiliuliang": {
+          "text": "瞬时流量 XX ㎡"
+        },
+        "leijiliuliang": {
+          "text": "累计流量 XX ㎡"
+        },
+        "wendu": {
+          "text": "温度 XX ℃"
+        },
+        "yaqiang": {
+          "text": "压力 XX Pa"
+        }
+      },
+      "visible": true,
+      "shape": "zhengqiyibiao_label",
+      "id": "404fadad-d43f-420b-a0ce-36d44acd81e1",
+      "zIndex": 27
+    },
+    {
+      "position": {
+        "x": -117,
+        "y": 396
+      },
+      "size": {
+        "width": 165,
+        "height": 134
+      },
+      "attrs": {
+        "shunshiliuliang": {
+          "text": "瞬时流量 XX ㎡"
+        },
+        "leijiliuliang": {
+          "text": "累计流量 XX ㎡"
+        },
+        "wendu": {
+          "text": "温度 XX ℃"
+        },
+        "yaqiang": {
+          "text": "压力 XX Pa"
+        }
+      },
+      "visible": true,
+      "shape": "zhengqiyibiao_label",
+      "id": "1deeb405-584a-4e0c-bbda-cf0fd8fc464e",
+      "zIndex": 28
+    },
+    {
+      "position": {
+        "x": 123,
+        "y": 396
+      },
+      "size": {
+        "width": 165,
+        "height": 134
+      },
+      "attrs": {
+        "shunshiliuliang": {
+          "text": "瞬时流量 XX ㎡"
+        },
+        "leijiliuliang": {
+          "text": "累计流量 XX ㎡"
+        },
+        "wendu": {
+          "text": "温度 XX ℃"
+        },
+        "yaqiang": {
+          "text": "压力 XX Pa"
+        }
+      },
+      "visible": true,
+      "shape": "zhengqiyibiao_label",
+      "id": "96e5c3ae-7e4f-4227-9fb2-d3df4aaa549d",
+      "zIndex": 29
+    },
+    {
+      "position": {
+        "x": 609,
+        "y": 396
+      },
+      "size": {
+        "width": 165,
+        "height": 134
+      },
+      "attrs": {
+        "shunshiliuliang": {
+          "text": "瞬时流量 XX ㎡"
+        },
+        "leijiliuliang": {
+          "text": "累计流量 XX ㎡"
+        },
+        "wendu": {
+          "text": "温度 XX ℃"
+        },
+        "yaqiang": {
+          "text": "压力 XX Pa"
+        }
+      },
+      "visible": true,
+      "shape": "zhengqiyibiao_label",
+      "id": "afd05126-10b9-4253-86de-4ae988f30d7f",
+      "zIndex": 30
+    },
+    {
+      "position": {
+        "x": 852,
+        "y": 396
+      },
+      "size": {
+        "width": 165,
+        "height": 134
+      },
+      "attrs": {
+        "shunshiliuliang": {
+          "text": "瞬时流量 XX ㎡"
+        },
+        "leijiliuliang": {
+          "text": "累计流量 XX ㎡"
+        },
+        "wendu": {
+          "text": "温度 XX ℃"
+        },
+        "yaqiang": {
+          "text": "压力 XX Pa"
+        }
+      },
+      "visible": true,
+      "shape": "zhengqiyibiao_label",
+      "id": "baa1510b-b62e-4f24-8dca-1d8a3cf9d94c",
+      "zIndex": 31
+    },
+    {
+      "position": {
+        "x": 1246,
+        "y": 396
+      },
+      "size": {
+        "width": 165,
+        "height": 134
+      },
+      "attrs": {
+        "shunshiliuliang": {
+          "text": "瞬时流量 XX ㎡"
+        },
+        "leijiliuliang": {
+          "text": "累计流量 XX ㎡"
+        },
+        "wendu": {
+          "text": "温度 XX ℃"
+        },
+        "yaqiang": {
+          "text": "压力 XX Pa"
+        }
+      },
+      "visible": true,
+      "shape": "zhengqiyibiao_label",
+      "id": "0cadc3df-be7f-45ad-a840-acca52584834",
+      "zIndex": 32
+    },
+    {
+      "shape": "arrow-pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 33,
+      "id": "cb1f6a24-1a11-485b-b94a-07197baab979",
+      "source": {
+        "x": 514,
+        "y": 472
+      },
+      "target": {
+        "x": 415,
+        "y": 389
+      },
+      "vertices": [
+        {
+          "x": 422,
+          "y": 472
+        }
+      ]
+    },
+    {
+      "shape": "arrow-pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 34,
+      "id": "fd1e2e03-e10b-4c4c-9cdc-993e63fc1a4a",
+      "source": {
+        "x": 1179,
+        "y": 480
+      },
+      "target": {
+        "x": 1079,
+        "y": 384
+      },
+      "vertices": [
+        {
+          "x": 1079,
+          "y": 470
+        }
+      ]
+    },
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 35,
+      "id": "881dcb27-1341-431b-9830-5e1ddbb9c1fa",
+      "source": {
+        "x": 1927,
+        "y": 177
+      },
+      "target": {
+        "x": 1927,
+        "y": 319
+      },
+      "vertices": []
+    },
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 36,
+      "id": "4efcea9b-fc39-4d73-8273-6371d2092f89",
+      "source": {
+        "x": 327,
+        "y": 174
+      },
+      "target": {
+        "x": 414,
+        "y": 310
+      },
+      "vertices": [
+        {
+          "x": 351,
+          "y": 257
+        }
+      ]
+    },
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 37,
+      "id": "00c28bf2-7e85-410f-bf47-f1da5fefae16",
+      "source": {
+        "x": 964,
+        "y": 177
+      },
+      "target": {
+        "x": 1078,
+        "y": 321
+      },
+      "vertices": [
+        {
+          "x": 1017,
+          "y": 259
+        }
+      ]
+    },
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 40,
+      "id": "c7d9ac2f-550f-4714-b5c4-474c78390934",
+      "source": {
+        "x": 509,
+        "y": 166
+      },
+      "target": {
+        "x": 509,
+        "y": 321
+      }
+    },
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 41,
+      "id": "944198bc-603d-4466-b397-b94365906ec3",
+      "source": {
+        "x": 1178,
+        "y": 172
+      },
+      "target": {
+        "x": 1178,
+        "y": 333
+      }
+    },
+    {
+      "shape": "arrow-pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 42,
+      "id": "d1e63c5c-dbc8-4c50-9290-902d6376b82b",
+      "source": {
+        "x": 1181,
+        "y": 620
+      },
+      "target": {
+        "x": 1181,
+        "y": 375
+      },
+      "vertices": []
+    },
+    {
+      "shape": "arrow-pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 43,
+      "id": "10453969-9382-4f04-a833-5d68dff99500",
+      "source": {
+        "x": 1598,
+        "y": 726
+      },
+      "target": {
+        "x": 1598,
+        "y": 378
+      },
+      "vertices": []
+    },
+    {
+      "shape": "arrow-pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 44,
+      "id": "48fdff1f-b7f5-4816-acac-176b984b8934",
+      "source": {
+        "x": 1929,
+        "y": 725
+      },
+      "target": {
+        "x": 1929,
+        "y": 379
+      },
+      "vertices": []
+    },
+    {
+      "position": {
+        "x": 1661,
+        "y": 396
+      },
+      "size": {
+        "width": 165,
+        "height": 134
+      },
+      "attrs": {
+        "shunshiliuliang": {
+          "text": "瞬时流量 XX ㎡"
+        },
+        "leijiliuliang": {
+          "text": "累计流量 XX ㎡"
+        },
+        "wendu": {
+          "text": "温度 XX ℃"
+        },
+        "yaqiang": {
+          "text": "压力 XX Pa"
+        }
+      },
+      "visible": true,
+      "shape": "zhengqiyibiao_label",
+      "id": "d0cef1a2-fa4e-4da0-857b-6733d2623194",
+      "zIndex": 45
+    },
+    {
+      "position": {
+        "x": 1993,
+        "y": 396
+      },
+      "size": {
+        "width": 165,
+        "height": 134
+      },
+      "attrs": {
+        "shunshiliuliang": {
+          "text": "瞬时流量 XX ㎡"
+        },
+        "leijiliuliang": {
+          "text": "累计流量 XX ㎡"
+        },
+        "wendu": {
+          "text": "温度 XX ℃"
+        },
+        "yaqiang": {
+          "text": "压力 XX Pa"
+        }
+      },
+      "visible": true,
+      "shape": "zhengqiyibiao_label",
+      "id": "a574d6f0-70cc-419b-87b8-5edd5f14c693",
+      "zIndex": 46
+    },
+    {
+      "position": {
+        "x": 123,
+        "y": 1244
+      },
+      "size": {
+        "width": 165,
+        "height": 134
+      },
+      "attrs": {
+        "shunshiliuliang": {
+          "text": "瞬时流量 XX ㎡"
+        },
+        "leijiliuliang": {
+          "text": "累计流量 XX ㎡"
+        },
+        "wendu": {
+          "text": "温度 XX ℃"
+        },
+        "yaqiang": {
+          "text": "压力 XX Pa"
+        }
+      },
+      "visible": true,
+      "shape": "zhengqiyibiao_label",
+      "id": "7b02709e-7677-4848-b202-7b07a57f3450",
+      "zIndex": 49
+    },
+    {
+      "shape": "arrow-pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 50,
+      "id": "b33f2ad7-cff1-44c0-8edc-8c187eba7c85",
+      "source": {
+        "x": 422,
+        "y": 732
+      },
+      "target": {
+        "x": 422,
+        "y": 1275
+      }
+    },
+    {
+      "position": {
+        "x": 523,
+        "y": 1244
+      },
+      "size": {
+        "width": 165,
+        "height": 134
+      },
+      "attrs": {
+        "shunshiliuliang": {
+          "text": "瞬时流量 XX ㎡"
+        },
+        "leijiliuliang": {
+          "text": "累计流量 XX ㎡"
+        },
+        "wendu": {
+          "text": "温度 XX ℃"
+        },
+        "yaqiang": {
+          "text": "压力 XX Pa"
+        }
+      },
+      "visible": true,
+      "shape": "zhengqiyibiao_label",
+      "id": "82771440-34e4-41a5-b074-933532babfd0",
+      "zIndex": 52
+    },
+    {
+      "shape": "arrow-pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 54,
+      "id": "8055fd6b-5532-48b3-84e4-0e1bfff0a2cc",
+      "source": {
+        "x": 840,
+        "y": 733
+      },
+      "target": {
+        "x": 840,
+        "y": 1276
+      }
+    },
+    {
+      "position": {
+        "x": 978,
+        "y": 1244
+      },
+      "size": {
+        "width": 165,
+        "height": 134
+      },
+      "attrs": {
+        "shunshiliuliang": {
+          "text": "瞬时流量 XX ㎡"
+        },
+        "leijiliuliang": {
+          "text": "累计流量 XX ㎡"
+        },
+        "wendu": {
+          "text": "温度 XX ℃"
+        },
+        "yaqiang": {
+          "text": "压力 XX Pa"
+        }
+      },
+      "visible": true,
+      "shape": "zhengqiyibiao_label",
+      "id": "b2fc03ba-f5a3-4939-8ce9-13d6e7030a09",
+      "zIndex": 55
+    },
+    {
+      "position": {
+        "x": 1826,
+        "y": 1244
+      },
+      "size": {
+        "width": 165,
+        "height": 134
+      },
+      "attrs": {
+        "shunshiliuliang": {
+          "text": "瞬时流量 XX ㎡"
+        },
+        "leijiliuliang": {
+          "text": "累计流量 XX ㎡"
+        },
+        "wendu": {
+          "text": "温度 XX ℃"
+        },
+        "yaqiang": {
+          "text": "压力 XX Pa"
+        }
+      },
+      "visible": true,
+      "shape": "zhengqiyibiao_label",
+      "id": "7bb4cc29-917d-4972-9ef1-a6c4d00b56c6",
+      "zIndex": 57
+    },
+    {
+      "shape": "arrow-pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 58,
+      "id": "bb9c77f8-8aa4-450f-b427-6e48f84b9845",
+      "source": {
+        "x": 1724,
+        "y": 734
+      },
+      "target": {
+        "x": 1724,
+        "y": 1277
+      }
+    },
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 59,
+      "id": "8ee00bd1-51b6-4e7f-99df-7993b7b0c8aa",
+      "source": {
+        "x": 1727,
+        "y": 1336
+      },
+      "target": {
+        "x": 1727,
+        "y": 1581
+      }
+    },
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 60,
+      "id": "354c36b1-ee0e-4b7f-8803-14b4e5beb051",
+      "source": {
+        "x": 840,
+        "y": 1336
+      },
+      "target": {
+        "x": 840,
+        "y": 1581
+      }
+    },
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 61,
+      "id": "8808edab-6405-425b-9566-68074869a886",
+      "source": {
+        "x": 423,
+        "y": 1336
+      },
+      "target": {
+        "x": 423,
+        "y": 1581
+      }
+    },
+    {
+      "shape": "arrow-pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 66,
+      "id": "e62b9fd2-ff9d-467e-abd8-ce2b85fde457",
+      "source": {
+        "x": 2145,
+        "y": 1193
+      },
+      "target": {
+        "x": 2577,
+        "y": 1472
+      },
+      "vertices": [
+        {
+          "x": 2145,
+          "y": 1457
+        }
+      ]
+    },
+    {
+      "shape": "pipe",
+      "connector": {
+        "name": "jumpover",
+        "args": {
+          "size": 10
+        }
+      },
+      "zIndex": 69,
+      "id": "1968bf79-dc52-479a-8f41-98c362ffc971",
+      "source": {
+        "x": 2647,
+        "y": 1471
+      },
+      "target": {
+        "x": 2787,
+        "y": 1471
+      },
+      "vertices": []
+    },
+    {
+      "position": {
+        "x": 2789,
+        "y": 1150
+      },
+      "size": {
+        "width": 178,
+        "height": 76
+      },
+      "attrs": {
+        "text": {
+          "text": "祥峰科技"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "id": "69711297-4138-4d77-8b6d-e80717412164",
+      "zIndex": 70
+    },
+    {
+      "position": {
+        "x": 2817,
+        "y": 1603
+      },
+      "size": {
+        "width": 100,
+        "height": 35
+      },
+      "attrs": {
+        "text": {
+          "text": "发电作业区"
+        }
+      },
+      "visible": true,
+      "shape": "custom-label",
+      "id": "08c72e15-d1ac-4f87-b766-05e1f79cbb01",
+      "zIndex": 72
+    },
+    {
+      "position": {
+        "x": 2435,
+        "y": 1517
+      },
+      "size": {
+        "width": 165,
+        "height": 134
+      },
+      "attrs": {
+        "shunshiliuliang": {
+          "text": "瞬时流量 XX ㎡"
+        },
+        "leijiliuliang": {
+          "text": "累计流量 XX ㎡"
+        },
+        "wendu": {
+          "text": "温度 XX ℃"
+        },
+        "yaqiang": {
+          "text": "压力 XX Pa"
+        }
+      },
+      "visible": true,
+      "shape": "zhengqiyibiao_label",
+      "id": "4b0b9e15-43bb-4815-bd22-25c5556f6040",
+      "zIndex": 73
+    },
+    {
+      "position": {
+        "x": -273,
+        "y": 99
+      },
+      "size": {
+        "width": 182,
+        "height": 77
+      },
+      "attrs": {
+        "text": {
+          "text": "1#正常氮气"
+        },
+        "body": {
+          "rx": 20,
+          "ry": 26
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "id": "96268e31-153d-42a7-94dd-c7f806efa64a",
+      "zIndex": 78
+    },
+    {
+      "position": {
+        "x": 211,
+        "y": 99
+      },
+      "size": {
+        "width": 182,
+        "height": 77
+      },
+      "attrs": {
+        "text": {
+          "text": "2#事故氮气"
+        },
+        "body": {
+          "rx": 20,
+          "ry": 26
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "id": "2b9bd8a6-a5d7-47a8-b712-04ecd91c1dec",
+      "zIndex": 79
+    },
+    {
+      "position": {
+        "x": 427,
+        "y": 99
+      },
+      "size": {
+        "width": 182,
+        "height": 77
+      },
+      "attrs": {
+        "text": {
+          "text": "2#正常氮气"
+        },
+        "body": {
+          "rx": 20,
+          "ry": 26
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "id": "f693b758-bc12-43c8-9fe1-9675fae5fca7",
+      "zIndex": 80
+    },
+    {
+      "position": {
+        "x": 875,
+        "y": 99
+      },
+      "size": {
+        "width": 182,
+        "height": 77
+      },
+      "attrs": {
+        "text": {
+          "text": "3#事故氮气 "
+        },
+        "body": {
+          "rx": 20,
+          "ry": 26
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "id": "c5747909-3f66-46fa-a90f-369f9ebbc086",
+      "zIndex": 81
+    },
+    {
+      "position": {
+        "x": 1087,
+        "y": 99
+      },
+      "size": {
+        "width": 182,
+        "height": 77
+      },
+      "attrs": {
+        "text": {
+          "text": "3#正常氮气"
+        },
+        "body": {
+          "rx": 20,
+          "ry": 26
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "id": "4e27c722-dbf4-48bf-9f90-8aa8e907ab8b",
+      "zIndex": 82
+    },
+    {
+      "position": {
+        "x": 1503,
+        "y": 99
+      },
+      "size": {
+        "width": 182,
+        "height": 77
+      },
+      "attrs": {
+        "text": {
+          "text": "101转运站"
+        },
+        "body": {
+          "rx": 20,
+          "ry": 26
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "id": "de018e5b-761d-403d-9f0c-a03b8e2b749f",
+      "zIndex": 83
+    },
+    {
+      "position": {
+        "x": 1835,
+        "y": 99
+      },
+      "size": {
+        "width": 182,
+        "height": 77
+      },
+      "attrs": {
+        "text": {
+          "text": "105转运站 "
+        },
+        "body": {
+          "rx": 20,
+          "ry": 26
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "id": "4c68ae9d-3ff8-48e3-86bd-04ae861256b4",
+      "zIndex": 84
+    },
+    {
+      "position": {
+        "x": -82,
+        "y": 1582
+      },
+      "size": {
+        "width": 182,
+        "height": 77
+      },
+      "attrs": {
+        "text": {
+          "text": "鼓冷工段"
+        },
+        "body": {
+          "rx": 20,
+          "ry": 26
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "id": "8a45ae2c-cbb1-4407-809c-9e2264b4edd7",
+      "zIndex": 85
+    },
+    {
+      "position": {
+        "x": 332,
+        "y": 1582
+      },
+      "size": {
+        "width": 182,
+        "height": 77
+      },
+      "attrs": {
+        "text": {
+          "text": "制酸工段"
+        },
+        "body": {
+          "rx": 20,
+          "ry": 26
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "id": "5f43246d-de6c-405f-80d0-56ca93a26969",
+      "zIndex": 86
+    },
+    {
+      "position": {
+        "x": 749,
+        "y": 1582
+      },
+      "size": {
+        "width": 182,
+        "height": 77
+      },
+      "attrs": {
+        "text": {
+          "text": "库区工段"
+        },
+        "body": {
+          "rx": 20,
+          "ry": 26
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "id": "d5fbca32-4c18-4028-bb82-8c4c9cd73900",
+      "zIndex": 87
+    },
+    {
+      "position": {
+        "x": 1635,
+        "y": 1582
+      },
+      "size": {
+        "width": 182,
+        "height": 77
+      },
+      "attrs": {
+        "text": {
+          "text": "炼焦"
+        },
+        "body": {
+          "rx": 20,
+          "ry": 26
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "id": "5d0b1a62-e4df-4fe8-8c7e-cbbad152079b",
+      "zIndex": 88
+    },
+    {
+      "position": {
+        "x": 2787,
+        "y": 1428
+      },
+      "size": {
+        "width": 182,
+        "height": 77
+      },
+      "attrs": {
+        "text": {
+          "text": "135MW机组"
+        },
+        "body": {
+          "rx": 20,
+          "ry": 26
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "id": "aab19f29-331a-466a-876d-e6c2da59cca2",
+      "zIndex": 89
+    },
+    {
+      "position": {
+        "x": -273,
+        "y": 1685
+      },
+      "size": {
+        "width": 235,
+        "height": 62
+      },
+      "attrs": {
+        "text": {
+          "text": "净化作业区"
+        }
+      },
+      "visible": true,
+      "shape": "custom-label",
+      "id": "3f3359b2-4c42-4507-95cd-3c5c552ce08c",
+      "zIndex": 90
+    },
+    {
+      "position": {
+        "x": 1391,
+        "y": 1685
+      },
+      "size": {
+        "width": 235,
+        "height": 62
+      },
+      "attrs": {
+        "text": {
+          "text": "炼焦作业区"
+        }
+      },
+      "visible": true,
+      "shape": "custom-label",
+      "id": "f65ca666-b83c-4df2-a14e-10d1107bb139",
+      "zIndex": 92
+    },
+    {
+      "position": {
+        "x": 2548,
+        "y": 99.5
+      },
+      "size": {
+        "width": 205,
+        "height": 76
+      },
+      "attrs": {
+        "text": {
+          "text": "唐钢新区入厂"
+        }
+      },
+      "visible": true,
+      "shape": "custom-rect",
+      "id": "3a7e223c-5fec-42e0-b03f-235d8bbab907",
+      "zIndex": 93
+    },
+    {
+      "position": {
+        "x": 2065,
+        "y": -92.50000000000034
+      },
+      "size": {
+        "width": 236,
+        "height": 51
+      },
+      "attrs": {
+        "text": {
+          "text": "备煤作业区"
+        }
+      },
+      "visible": true,
+      "shape": "custom-label",
+      "id": "9b9a5229-0ad8-46ae-b4eb-5a57b3d60d0f",
+      "zIndex": 94
+    },
+    {
+      "position": {
+        "x": -394,
+        "y": 296
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "visible": true,
+      "shape": "zhengqibiao",
+      "id": "071e3449-8496-46e5-bf94-1110f8c75022",
+      "zIndex": 95
+    },
+    {
+      "position": {
+        "x": -291,
+        "y": 296
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "visible": true,
+      "shape": "zhengqibiao",
+      "id": "c145d3c2-75df-4801-98d8-9455f2ac5658",
+      "zIndex": 96
+    },
+    {
+      "position": {
+        "x": 314,
+        "y": 296
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "visible": true,
+      "shape": "zhengqibiao",
+      "id": "0d872d8a-e825-46dc-8201-233f8f7af122",
+      "zIndex": 97
+    },
+    {
+      "position": {
+        "x": 409,
+        "y": 296
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "visible": true,
+      "shape": "zhengqibiao",
+      "id": "2e1bf57e-8992-4657-b882-9dbd4f510d20",
+      "zIndex": 98
+    },
+    {
+      "position": {
+        "x": 978,
+        "y": 296
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "visible": true,
+      "shape": "zhengqibiao",
+      "id": "4b216546-b94a-4bfb-88e9-089e1d019a5d",
+      "zIndex": 99
+    },
+    {
+      "position": {
+        "x": 1078,
+        "y": 296
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "visible": true,
+      "shape": "zhengqibiao",
+      "id": "e6dd7f58-7d41-4b53-b1ad-6ec11d8f820d",
+      "zIndex": 100
+    },
+    {
+      "position": {
+        "x": 1494,
+        "y": 296
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "visible": true,
+      "shape": "zhengqibiao",
+      "id": "74eedab7-4bcf-413f-b373-36f89c209b6d",
+      "zIndex": 101
+    },
+    {
+      "position": {
+        "x": 1826,
+        "y": 296
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "visible": true,
+      "shape": "zhengqibiao",
+      "id": "ce87811b-a6ed-4d74-a28f-b066a7f7c7fd",
+      "zIndex": 102
+    },
+    {
+      "position": {
+        "x": 2259,
+        "y": 296
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "visible": true,
+      "shape": "zhengqibiao",
+      "id": "e0a56cea-dd91-4796-85b3-48df9a7d95dd",
+      "zIndex": 103
+    },
+    {
+      "position": {
+        "x": -91,
+        "y": 1261
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "visible": true,
+      "shape": "zhengqibiao",
+      "id": "d85724ed-b650-49c4-9480-957f4fbf02f6",
+      "zIndex": 104
+    },
+    {
+      "position": {
+        "x": 323,
+        "y": 1261
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "visible": true,
+      "shape": "zhengqibiao",
+      "id": "02518ac9-3854-4f1d-8baf-36f007bc2774",
+      "zIndex": 105
+    },
+    {
+      "position": {
+        "x": 740,
+        "y": 1261
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "visible": true,
+      "shape": "zhengqibiao",
+      "id": "2caed239-c89e-4d4a-9cc4-3439cab436ab",
+      "zIndex": 106
+    },
+    {
+      "position": {
+        "x": 1626,
+        "y": 1261
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "visible": true,
+      "shape": "zhengqibiao",
+      "id": "d17bc418-1c7f-4e36-9f34-2e163bb0f161",
+      "zIndex": 107
+    },
+    {
+      "position": {
+        "x": 2512,
+        "y": 1126
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "visible": true,
+      "shape": "zhengqibiao",
+      "id": "3cd22061-ab60-440c-b7ee-bac196f1bfe1",
+      "zIndex": 108
+    },
+    {
+      "position": {
+        "x": 2512,
+        "y": 1405
+      },
+      "size": {
+        "width": 200,
+        "height": 100
+      },
+      "visible": true,
+      "shape": "zhengqibiao",
+      "id": "3fc06fd6-ad8b-4237-bf58-56fe44a396fd",
+      "zIndex": 109
+    }
+  ]
+}
