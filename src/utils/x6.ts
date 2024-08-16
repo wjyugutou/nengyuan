@@ -12,92 +12,76 @@ import yibiao from '@/assets/yibiao.png'
 
 export function regNode() {
   // 椭圆
-  Graph.registerNode(
-    'custom-rect',
-    {
-      inherit: 'rect',
-      width: 100,
-      height: 100,
-      attrs: {
-        body: {
-          strokeWidth: 1,
-          stroke: '#5F95FF',
-          fill: '#EFF4FF',
-        },
-        text: {
-          fontSize: 28,
-          fill: '#262626',
-        },
+  Graph.registerNode('custom-rect', {
+    inherit: 'rect',
+    width: 100,
+    height: 100,
+    attrs: {
+      body: {
+        strokeWidth: 1,
+        stroke: '#5F95FF',
+        fill: '#EFF4FF',
+      },
+      text: {
+        fontSize: 28,
+        fill: '#262626',
       },
     },
-    false,
-  )
+  }, false)
   // 1级标题
-  Graph.registerNode(
-    'custom-title',
-    {
-      inherit: 'rect',
-      width: 100,
-      height: 35,
-      attrs: {
-        body: {
-          strokeWidth: 0,
-          fillOpacity: 0,
-        },
-        text: {
-          fontSize: 60,
-          fill: '#000',
-          fontWeight: 900,
-        },
+  Graph.registerNode('custom-title', {
+    inherit: 'rect',
+    width: 100,
+    height: 35,
+    attrs: {
+      body: {
+        strokeWidth: 0,
+        fillOpacity: 0,
+      },
+      text: {
+        fontSize: 60,
+        fill: '#000',
+        fontWeight: 900,
       },
     },
-    false,
-  )
+  }, false)
   // 2级标题
-  Graph.registerNode(
-    'custom-label',
-    {
-      inherit: 'rect',
-      width: 100,
-      height: 35,
-      attrs: {
-        body: {
-          strokeWidth: 0,
-          fillOpacity: 0,
-        },
-        text: {
-          fontSize: 44,
-          fill: '#000',
-        },
+  Graph.registerNode('custom-label', {
+    inherit: 'rect',
+    width: 100,
+    height: 35,
+    attrs: {
+      body: {
+        strokeWidth: 0,
+        fillOpacity: 0,
+      },
+      text: {
+        fontSize: 44,
+        fill: '#000',
       },
     },
-    false,
-  )
+  }, false)
   // 蒸汽仪表
-  Graph.registerNode(
-    'zhengqibiao',
-    {
-      inherit: 'rect',
-      width: 200,
-      height: 100,
-      markup: [
-        { tagName: 'rect', selector: 'body' },
-        { tagName: 'image' },
-      ],
-      attrs: {
-        body: {
-          stroke: 'transtarent',
-          fillOpacity: 0,
-        },
-        image: {
-          ref: 'body',
-          refWidth: 1,
-          refHeight: 1,
-        },
+  Graph.registerNode('zhengqibiao', {
+    inherit: 'rect',
+    width: 200,
+    height: 100,
+    markup: [
+      { tagName: 'rect', selector: 'body' },
+      { tagName: 'image' },
+    ],
+    attrs: {
+      body: {
+        stroke: 'transtarent',
+        fillOpacity: 0,
+      },
+      image: {
+        ref: 'body',
+        refWidth: 1,
+        refHeight: 1,
       },
     },
-    false,
-  )
+  }, false)
   // 蒸汽仪表-label
   Graph.registerNode('zhengqiyibiao_label', {
     inherit: 'rect',
@@ -164,6 +148,43 @@ export function regNode() {
       },
       yaqiang: {
         ref: 'wendu',
+        refX: 0,
+        refY: 40,
+        textAnchor: 'left',
+        textVerticalAnchor: 'top',
+        fontSize: 24,
+        fill: '#007DFE',
+      },
+    },
+
+  }, false)
+
+  // 电表-label
+  Graph.registerNode('dianbiao_label', {
+    inherit: 'rect',
+    width: 100,
+    height: 60,
+    markup: [
+      { tagName: 'rect', selector: 'body' },
+      { tagName: 'text', selector: 'dianya' },
+      { tagName: 'text', selector: 'dianliu' },
+    ],
+    attrs: {
+      body: {
+        stroke: 'transparent',
+        fill: 'transparent',
+      },
+      dianya: {
+        ref: 'body',
+        refX: 0,
+        refY: 0,
+        textAnchor: 'left',
+        textVerticalAnchor: 'top',
+        fontSize: 24,
+        fill: '#FF6464',
+      },
+      dianliu: {
+        ref: 'dianya',
         refX: 0,
         refY: 40,
         textAnchor: 'left',
@@ -392,7 +413,7 @@ export function initStencilNode(graph: Graph, stencil: Stencil) {
     },
   })
 
-  const zhengqiyibiao_labelRight = graph.createNode({
+  const zhengqiyibiaoLabel = graph.createNode({
     shape: 'zhengqiyibiao_label',
     attrs: {
       shunshiliuliang: {
@@ -410,7 +431,7 @@ export function initStencilNode(graph: Graph, stencil: Stencil) {
     },
   })
 
-  const n3 = graph.createNode({
+  const yibiaoNode = graph.createNode({
     shape: 'yibiao',
     attrs: {
       image: {
@@ -419,7 +440,7 @@ export function initStencilNode(graph: Graph, stencil: Stencil) {
     },
   })
 
-  const n4 = graph.createNode({
+  const customRectNode = graph.createNode({
     shape: 'custom-rect',
     label: '减温减压',
   })
@@ -434,5 +455,123 @@ export function initStencilNode(graph: Graph, stencil: Stencil) {
     label: 'label',
   })
 
-  stencil.load([n1, zhengqibiaoNode, zhengqiyibiao_labelRight, n3, n4, title, label], 'group1')
+  const dbLabel = graph.createNode({
+    shape: 'dianbiao_label',
+    attrs: {
+      dianya: {
+        text: '电压',
+      },
+      dianliu: {
+        text: '电流',
+      },
+    },
+  })
+
+  stencil.load([n1, zhengqibiaoNode, zhengqiyibiaoLabel, yibiaoNode, customRectNode, title, label, dbLabel], 'group1')
+}
+
+let edgeShape: string
+
+export function initKeyboard(graph: Graph) {
+  // undo redo
+  graph.bindKey(['meta+z', 'ctrl+z'], () => {
+    if (graph.canUndo()) {
+      graph.undo()
+    }
+    return false
+  })
+  graph.bindKey(['meta+shift+z', 'ctrl+shift+z'], () => {
+    if (graph.canRedo()) {
+      graph.redo()
+    }
+    return false
+  })
+
+  // select all
+  graph.bindKey(['meta+a', 'ctrl+a'], () => {
+    const nodes = graph.getNodes()
+    if (nodes) {
+      graph.select(nodes)
+    }
+  })
+
+  // delete
+  graph.bindKey(['backspace', 'delete'], () => {
+    const cells = graph.getSelectedCells()
+    if (cells.length) {
+      graph.removeCells(cells)
+    }
+  })
+
+  //
+  graph.bindKey(['ctrl+c'], () => {
+    const cells = graph.getSelectedCells()
+    if (cells && cells.length) {
+      graph.copy(cells)
+    }
+    else {
+      console.log('请先选中节点再复制')
+    }
+  })
+
+  graph.bindKey(['ctrl+v'], () => {
+    // { offset: 30 }
+    if (graph.isClipboardEmpty()) {
+      graph.cleanClipboard()
+      console.log('剪切板为空，不可粘贴')
+    }
+    else {
+      const cells = graph.paste({ offset: 30 })
+      graph.cleanSelection()
+      graph.select(cells)
+    }
+  })
+
+  graph.bindKey('1', () => {
+    edgeShape = 'dashed-line'
+  })
+
+  graph.bindKey('2', () => {
+    edgeShape = 'arrow-pipe'
+  })
+
+  graph.bindKey('3', () => {
+    edgeShape = 'pipe'
+  })
+}
+
+export function initEvent(graph: Graph) {
+  // 双击添加线段
+  graph.on('blank:dblclick', (e) => {
+    // 线段
+    const edge = graph.createEdge({
+      shape: edgeShape,
+      source: [e.x, e.y],
+      target: [e.x + 80, e.y],
+    })
+    graph.addEdge(edge)
+  })
+
+  graph.on('node:contextmenu', (e) => {
+    e.node.addTools([
+      { name: 'node-editor' },
+    ])
+  })
+
+  // edge工具
+  graph.on('edge:click', ({ cell }) => {
+    cell.addTools([
+      { name: 'vertices' },
+      {
+        name: 'button-remove',
+        args: { distance: 20 },
+      },
+      { name: 'source-arrowhead' },
+      { name: 'target-arrowhead' },
+    ])
+  })
+
+  graph.on('blank:click', () => {
+    graph.getCells().forEach(item => item.removeTools())
+  })
 }

@@ -17,7 +17,9 @@ declare global {
   const getCurrentInstance: typeof import('vue')['getCurrentInstance']
   const getCurrentScope: typeof import('vue')['getCurrentScope']
   const h: typeof import('vue')['h']
+  const initEvent: typeof import('../src/utils/x6')['initEvent']
   const initGraph: typeof import('../src/utils/x6')['initGraph']
+  const initKeyboard: typeof import('../src/utils/x6')['initKeyboard']
   const initPorts: typeof import('../src/utils/x6')['initPorts']
   const initStencil: typeof import('../src/utils/x6')['initStencil']
   const initStencilNode: typeof import('../src/utils/x6')['initStencilNode']
@@ -89,7 +91,9 @@ declare module 'vue' {
     readonly getCurrentInstance: UnwrapRef<typeof import('vue')['getCurrentInstance']>
     readonly getCurrentScope: UnwrapRef<typeof import('vue')['getCurrentScope']>
     readonly h: UnwrapRef<typeof import('vue')['h']>
+    readonly initEvent: UnwrapRef<typeof import('../src/utils/x6')['initEvent']>
     readonly initGraph: UnwrapRef<typeof import('../src/utils/x6')['initGraph']>
+    readonly initKeyboard: UnwrapRef<typeof import('../src/utils/x6')['initKeyboard']>
     readonly initStencil: UnwrapRef<typeof import('../src/utils/x6')['initStencil']>
     readonly initStencilNode: UnwrapRef<typeof import('../src/utils/x6')['initStencilNode']>
     readonly inject: UnwrapRef<typeof import('vue')['inject']>
