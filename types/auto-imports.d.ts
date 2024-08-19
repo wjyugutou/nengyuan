@@ -9,6 +9,8 @@ declare global {
   const computed: typeof import('vue')['computed']
   const createApp: typeof import('vue')['createApp']
   const customRef: typeof import('vue')['customRef']
+  const dataList: typeof import('../src/utils/data')['dataList']
+  const dataMap: typeof import('../src/utils/data')['dataMap']
   const defineAsyncComponent: typeof import('vue')['defineAsyncComponent']
   const defineComponent: typeof import('vue')['defineComponent']
   const download: typeof import('../src/utils/download')['download']
@@ -20,7 +22,6 @@ declare global {
   const initEvent: typeof import('../src/utils/x6')['initEvent']
   const initGraph: typeof import('../src/utils/x6')['initGraph']
   const initKeyboard: typeof import('../src/utils/x6')['initKeyboard']
-  const initPorts: typeof import('../src/utils/x6')['initPorts']
   const initStencil: typeof import('../src/utils/x6')['initStencil']
   const initStencilNode: typeof import('../src/utils/x6')['initStencilNode']
   const inject: typeof import('vue')['inject']
@@ -83,6 +84,8 @@ declare module 'vue' {
     readonly computed: UnwrapRef<typeof import('vue')['computed']>
     readonly createApp: UnwrapRef<typeof import('vue')['createApp']>
     readonly customRef: UnwrapRef<typeof import('vue')['customRef']>
+    readonly dataList: UnwrapRef<typeof import('../src/utils/data')['dataList']>
+    readonly dataMap: UnwrapRef<typeof import('../src/utils/data')['dataMap']>
     readonly defineAsyncComponent: UnwrapRef<typeof import('vue')['defineAsyncComponent']>
     readonly defineComponent: UnwrapRef<typeof import('vue')['defineComponent']>
     readonly download: UnwrapRef<typeof import('../src/utils/download')['download']>

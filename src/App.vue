@@ -1,13 +1,15 @@
 <script setup lang="ts">
 import type { Model } from '@antv/x6'
-import dataList from '@/assets/data/index'
 
 const isEdit = ref(false)
 const listDialog = ref(false)
 
-const jsonData = shallowRef()
+const jsonDataList = dataList
+const jsonData = shallowRef(dataList[0].data)
+
 function handleClickJson(json: Model.FromJSONData) {
   listDialog.value = false
+
   jsonData.value = json
 }
 </script>
@@ -24,9 +26,9 @@ function handleClickJson(json: Model.FromJSONData) {
     {{ isEdit ? '编辑' : '展示' }}
   </button>
   <dialog :open="listDialog" class="top-30% h-100 w-100 border border-(red solid)" style="box-shadow: 0 0 10px red;">
-    <ul class="">
-      <li v-for="item, index in dataList" :key="index" class="m-t-2 cursor-pointer hover:color-blue-400" @click="handleClickJson(item.default)">
-        {{ index }}
+    <ul class="p-x-4">
+      <li v-for="item, index in jsonDataList" :key="index" class="m-t-2 cursor-pointer hover:color-blue-400" @click="handleClickJson(item.data)">
+        {{ item.name }}
       </li>
     </ul>
 
