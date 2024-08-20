@@ -2,10 +2,10 @@ import type { Model } from '@antv/x6'
 
 export const dataMap: Record<string, {
   default: Model.FromJSONData
-}> = import.meta.glob('/public/data/*.json', { eager: true })
+}> = import.meta.glob('@/assets/data/*.json', { eager: true })
 
 export const dataList = Object.entries(dataMap).map(item => ({
-  name: item[0].replaceAll(/(\/public\/data\/)|(\.json)/g, ''),
+  name: item[0].replaceAll(/(\/src\/assets\/data\/)|(\.json)/g, ''),
   data: item[1].default,
 }) as {
   name: string
