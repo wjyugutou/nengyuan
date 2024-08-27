@@ -211,9 +211,10 @@ export function regNode() {
         stroke: 'transparent',
       },
       image: {
-        ref: 'body',
-        refWidth: 1,
-        refHeight: 1,
+        'ref': 'body',
+        'refWidth': 1,
+        'refHeight': 1,
+        'xlink:href': yibiao,
       },
     },
   }, true)
