@@ -10,6 +10,7 @@ import { Stencil } from '@antv/x6-plugin-stencil'
 import zhengqibiao from '@/assets/zhengqibiao.png'
 import yibiao from '@/assets/yibiao.png'
 
+// 注册 node
 export function regNode() {
   // 椭圆
   Graph.registerNode('custom-rect', {
@@ -68,6 +69,9 @@ export function regNode() {
     height: 100,
     markup: [
       { tagName: 'rect', selector: 'body' },
+      { tagName: 'rect', selector: 'body1' },
+      { tagName: 'rect', selector: 'body2' },
+      { tagName: 'rect', selector: 'body3' },
       { tagName: 'image' },
     ],
     attrs: {
@@ -110,6 +114,7 @@ export function regNode() {
         textVerticalAnchor: 'top',
         fontSize: 24,
         fill: '#000',
+        text: '',
       },
       shunshiliuliangBG: {
         ref: 'shunshiliuliang',
@@ -276,9 +281,13 @@ export function regEdge() {
   }, true)
 }
 
+// 初始化画布
 export function initGraph(editable: boolean = true) {
   const graph = new Graph({
     container: document.getElementById('container')!,
+    background: {
+      // color: 'red',
+    },
     autoResize: true,
     interacting: editable,
     grid: {
@@ -361,6 +370,7 @@ export function initGraph(editable: boolean = true) {
   return graph
 }
 
+// 初始化无聊
 export function initStencil(graph: Graph) {
   const stencil = new Stencil({
     title: '流程图',
@@ -452,6 +462,7 @@ export function initStencilNode(graph: Graph, stencil: Stencil) {
     },
   })
 
+  // 添加到物料区域
   stencil.load([n1, zhengqibiaoNode, zhengqiyibiaoLabel, yibiaoNode, customRectNode, title, label, dbLabel], 'group1')
 }
 

@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { Edge, type Graph, type Model } from '@antv/x6'
+import type { Edge, Graph, Model } from '@antv/x6'
+import { Rect } from '@antv/x6/lib/shape'
 
 const props = defineProps<{
   json: Model.FromJSONData
@@ -7,7 +8,7 @@ const props = defineProps<{
 
 const visibleEdgeDialog = ref(false)
 const formData = reactive({
-  color: '',
+  id: '',
 })
 const currentEdge = ref<Edge>()
 
@@ -15,12 +16,10 @@ const graphR = shallowRef<Graph>()
 
 function edgeChangeColorEventBind(graph: Graph) {
   graph.on('cell:contextmenu', (e) => {
-    if (e.cell instanceof Edge) {
-      currentEdge.value = e.cell
+    currentEdge.value = e.cell
 
-      formData.color = currentEdge.value.attrs!.line.stroke as string
-      visibleEdgeDialog.value = true
-    }
+    formData.id = currentEdge.value.id
+    visibleEdgeDialog.value = true
   })
 }
 
@@ -41,7 +40,8 @@ function handleClickClear() {
 }
 
 function handleClickConfirm() {
-  currentEdge.value?.setAttrByPath('line/stroke', formData.color)
+  // currentEdge.value?.setAttrByPath('line/strokeWidth', formData.id)
+  currentEdge.value?.setPropByPath('id', formData.id)
   visibleEdgeDialog.value = false
 }
 
@@ -90,8 +90,8 @@ watchEffect(() => {
 
     <dialog :open="visibleEdgeDialog" class="top-30% h-100 w-100 border border-(red solid)" style="box-shadow: 0 0 10px red;">
       <div>
-        <label for="color">颜色:</label>
-        <input id="color" v-model="formData.color" type="text" class="border border-(gray-400) outline-none">
+        <label for="color">id:</label>
+        <input id="color" v-model="formData.id" type="text" class="border border-(gray-400) outline-none">
       </div>
 
       <div class="absolute bottom-0 left-0 right-0 p-4">

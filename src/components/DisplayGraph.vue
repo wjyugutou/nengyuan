@@ -5,13 +5,31 @@ const props = defineProps<{
   json: Model.FromJSONData
 }>()
 
+// 画布
 const graphR = shallowRef<Graph>()
+
+const data = ref<any[]>()
 
 onMounted(() => {
   const graph = initGraph(false)
   graphR.value = graph
   regNode()
   regEdge()
+
+  // 获取数据
+  // data.value = [
+  //   {
+  //     id: '',
+  //     shunshiliuliang: 10,
+  //   },
+  // ]
+
+  // data.value.forEach((item) => {
+  // 根据id获取 node
+  //   const cell = graphR.value.getCellById(item.id)
+  // 设置node 的 text
+  //   cell.setAttrByPath('shunshiliuliang/text', item.shunshiliuliang)
+  // })
 })
 
 watchEffect(() => {
